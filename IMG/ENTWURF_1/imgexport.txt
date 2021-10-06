@@ -1,0 +1,5 @@
+export img:
+grundriss 1:50 250dpi 3000x3000pixel
+
+export img:
+grundriss 1_100 400dpi 4000x4000pixel
