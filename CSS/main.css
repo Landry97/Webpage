@@ -533,6 +533,8 @@ figure.project1:hover .project-info1{
 }
 figure.project1{
     position: relative;
+    display: inline-block;
+    width: auto;
 }
 figure.project1:before{
     content: '';
@@ -574,6 +576,9 @@ figcaption.project-info1{
     margin: 0;
     letter-spacing: .15rem;
 }
-figure.project{
+.project{
     margin: 0.5rem;
+    position: relative;
+    display: inline-block;
+    width: auto;
   }
