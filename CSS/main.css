@@ -103,14 +103,9 @@ header{
     text-decoration: none;
     list-style-type: none;
 }
-@media screen and (min-width:300px) {
-    .header-title a span{
-        font-size: 0.05rem;
-    }
-}
 .header-title a span{
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     height: 100%;
     text-align: center;
     box-sizing:border-box;
