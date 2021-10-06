@@ -165,31 +165,17 @@ width: 100%;
     cursor: pointer;
     position: absolute;
     width: auto;
-    padding: 16px;
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
   }
   .previous {
-    display: flex;
     left: 5%;
-    width: 45%;
-    height: 80%;
-    align-items: center;
-    justify-content: left;
   }
   .next {
-    display: flex;
     right: 5%;
-    width: 45%;
-    height: 80%;
-    align-items: center;
-    justify-content: right;
-    display: flex;
     }
   .previous:hover,
   .next:hover {
