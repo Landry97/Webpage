@@ -10,7 +10,6 @@ html{
     width: 100%;
 } 
 body{
-    min-height: 100vh;
     color: black;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
@@ -317,7 +316,7 @@ div.min-width{
 /* FOOTER */
 .footer-wrapper{
 	height: auto;
-	min-height: 20vh;
+	min-height: 18.5vh;
 	display: flex;
 	align-content: flex-end;
 }
