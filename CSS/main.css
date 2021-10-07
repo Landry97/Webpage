@@ -437,11 +437,11 @@ figcaption.project-info1{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center
-    width: 100%;
-    margin: 0;
-    margin-top: 1rem;
 }
+.project-info p{
+	text-align: center; 
+}
+
 .project1 .project-info1{
     position: absolute;
     z-index: 3;
