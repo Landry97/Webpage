@@ -576,3 +576,6 @@ figcaption.project-info1{
 figure.project{
     margin: 0.5rem;
   }
+.project-info p {
+    text-align: center
+  }
