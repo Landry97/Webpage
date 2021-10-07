@@ -1,8 +1,6 @@
 body { height: 100%;}
 html { overflow: hidden; }
 body { overflow-y: scroll; }
-
-
   *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -24,7 +22,6 @@ footer{
       max-width: 100%;
       margin-bottom: 2.5%;
       margin-top: 1.5rem;
-
   }
   #myBtn {
     display: block;
@@ -49,9 +46,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
-  
+ 
   .modal {
     display: none;
     position: fixed;
@@ -77,17 +73,12 @@ footer{
     height: 100%;
     max-height: 95%;
   }
-
   div.direction{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
   }
-
-  
   .slide {
     display: none;
     justify-content: center;
@@ -97,7 +88,6 @@ footer{
     height: 100%;
     max-height: 95%;
   }
-
   .image-slide {
       display: flex;
       justify-content: center;
@@ -108,15 +98,10 @@ footer{
       max-height: 95%;
       -o-object-fit: contain;
       object-fit: contain;
-      
   }
-  
   .modal-preview {
       width: auto;
   }
-  
-
-
   div.dots {
     position: absolute;
     bottom: 3%;
@@ -140,9 +125,6 @@ footer{
     width: auto;
     height: 100%;
   }
-  
-
-
   img.preview, img.modal-preview {
     opacity: 1;
   }
@@ -151,7 +133,6 @@ footer{
 width: 100%;
   }
 }
-
   img.active,
   .preview:hover,
   .modal-preview:hover {
@@ -165,7 +146,6 @@ width: 100%;
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   } 
-  
   .close {
     color: black;
     position: absolute;
@@ -174,14 +154,12 @@ width: 100%;
     font-size: 35px;
     font-weight: bold;
   }
-  
   .close:hover,
   .close:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
   }
-  
   .previous,
   .next {
     display: flex;
@@ -197,13 +175,13 @@ width: 100%;
     border-radius: 0 3px 3px 0;
   }
   .previous {
-      left: 5%;
+      left: 0%;
       width: 45%;
       height: 40%;
   }
   
   .next {
-    right: 5%;
+    right: 0%;
     width: 45%;
     height: 40%;
   }
