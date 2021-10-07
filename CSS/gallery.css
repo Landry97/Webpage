@@ -129,11 +129,6 @@ footer{
   img.preview, img.modal-preview {
     opacity: 1;
   }
-  @media screen and (max-width:440px){
-  img.preview{
-width: 100%;
-  }
-}
   img.active,
   .preview:hover,
   .modal-preview:hover {
