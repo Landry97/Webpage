@@ -317,6 +317,7 @@ div.min-width{
 /* FOOTER */
 footer{
     margin-top: auto;
+    bottom: 0.5rem;
     width: 100%;
     padding-top: 1.5rem;
     color: white;
