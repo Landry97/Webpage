@@ -315,6 +315,7 @@ div.min-width{
 }
 /* FOOTER */
 .footer-wrapper{
+	height: auto;
     min-height:100%;
     position:relative;
 }
