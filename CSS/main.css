@@ -490,8 +490,8 @@ p.project-image{
     height: auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-top: 1rem; 
-    padding-bottom: 1rem;
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
     display: flex;
     align-items: center;
     align-content: center;
