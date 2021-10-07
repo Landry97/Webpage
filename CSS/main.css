@@ -2,21 +2,27 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
+
 html{
     min-height: 100%;
     height: 100%;
     width: 100%;
 } 
 body{
-    min-height: 100%;
+    width: 100%;
+    background: white;
     color: black;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
+
 /* HEADER */
 /* WICHTIG: Z-INDEX immer 101 */
+
 .balkencontainer{
     display: flex;
     flex-direction: column;
@@ -25,6 +31,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .balkentext{
     margin-top: -1rem;
     display: flex;
@@ -35,14 +42,19 @@ body{
     margin-right: 1%;
     z-index: 101;
 }
+
 .balkentext h4{
     padding-left: .3rem;
     padding-right: .3rem;
+
 }
+
 .balken_2{
     background-color: black;
     width: 100%;
     height: 100%;
+
+
 }
 .balken{
     background-color: black;
@@ -95,13 +107,20 @@ header{
     font-weight: lighter;
     letter-spacing: .6em;
 }
+
 .header-title a{
     text-decoration: none;
     list-style-type: none;
 }
+
+@media screen and (min-width:300px) {
+    .header-title a span{
+        font-size: 0.05rem;
+    }
+}
 .header-title a span{
     color: black;
-    font-size: 1rem;
+    font-size: 1.25rem;
     height: 100%;
     text-align: center;
     box-sizing:border-box;
@@ -126,6 +145,7 @@ nav .menu{
     left: 0%;
     margin-left: 1rem;
 }
+
 .menu-toggle {
     display: none;
     background: url("black-point.png") no-repeat;
@@ -144,6 +164,7 @@ nav .menu{
     cursor: pointer;
     z-index: 1000;
 }
+
 nav.menu li{
 display: flex;
 align-content: center;
@@ -162,6 +183,7 @@ li.menu-item a{
 li.menu-item a:hover{
     color:rgb(219, 10, 10);
 }
+
 nav.menu ul{
     display: flex;
     height: 100%;
@@ -178,6 +200,9 @@ position: absolute;
 width: 100%;
 z-index: 101;
 }
+
+
+
 address{
     display: none;
     font-size: 1.25rem;
@@ -202,6 +227,7 @@ address div p a{
 .menu-toggle.show{
     display: flex;
 }
+
 #nav-ul.show{
     display: flex;
     position: relative;
@@ -212,10 +238,12 @@ address div p a{
     width: 100%;
     height: 100%;
 }
+
 #nav-ul.show li{
     padding: 2rem;
     margin: 1.5rem;
 }
+
 #address.show{
     display: flex;
     flex-direction: column;
@@ -256,31 +284,19 @@ address div p a{
         display: none;
     }
 }
+
 @media (max-width: 1020px) {
     .balkentext{
         display: none;
     }
 }
-@media (max-width: 420px) {
-    .project-info p{
-        font-size: 0.6rem;
-    }
-}
-@media (max-width: 320px) {
-    .project-info p{
-        font-size: 0.4rem;
-    }
-}
-@media (min-width: 1700px) {
-    .project-info p{
-        font-size: 1.1rem;
-    }
-}
 /*@media_END_______________________________________________________________________________*/
+
 .workclass{ 
     display: flex;
     justify-content: center;
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -292,6 +308,8 @@ main{
     letter-spacing: .1rem;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 main ul{
     display: flex;
     flex-direction: row;
@@ -301,36 +319,39 @@ main ul{
     text-align: center 
 }
 main ul li{
-    /*  position: block;links größe konstant in chrome*/
+    position: block; /*  links größe konstant in chrome*/
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    text-decoration-style: none;
     list-style-type: none;
 }
 main ul li:hover{
     list-style-type: circle;
 }
+
 div.min-width{
     min-width: 100%;
 }
+
 /* FOOTER */
 .footer-wrapper{
 	height: auto;
 	min-height: 20vh;
 	display: flex;
 	align-content: flex-end;
-}
+} 
 footer{
     margin-top: auto;
-    width: 100%;
-    padding-top: 1.5rem;
     color: white;
     display: flex;
     flex-direction: row;
+    width: 100%;
     margin-bottom: 1.5em;
     letter-spacing: .15rem;
     font-size: 0.65em;
+    
 }
 footer p a {
     color: black;
@@ -369,16 +390,19 @@ footer p a {
     border-radius: 0; /* Rounded corners */
     font-size: 1rem; /* Increase font size */
   }
+ 
   #myBtn:hover {
     color: rgb(219, 10, 10); /*  text on hover */
   }
 /* END FOOTER */
+
 .wrapper{
     margin-top: 2rem;
     text-align: center;
     font-size: 3rem;
     padding: 0 1em 0 1em;
 }
+
 .project-list{
     margin-top: 2rem;
     display: flex;
@@ -390,78 +414,27 @@ footer p a {
 .project-image{
     margin: .5rem;
 }
+
 /* ACTIVE PAGE/HOVER */
 .activePage a {
 	color: rgb(219, 10, 10);
     text-decoration: none;
 }
+
 #workclass li:hover{
     color: rgb(219, 10, 10);
 }
+
 p.project-image:hover, .project-info:hover{
     color: rgb(219, 10, 10);
 }
 /* END ACTIVE PAGE/HOVER */
-
-figure {
-display: flex;
-margin: 0;
-}
-figure.project1:hover{
-    transform: translateY(0)
-}
-figure.project1:hover:before{
-    opacity: 1;
-}
-figure.project1:hover .project-info1{
-    opacity: 1;
-    transform: translateY(0) ;
-}
-figure.project1{
-    position: relative;
-}
-figure.project1:before{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 2;
-    transition: 0.3s;
-    opacity: 0;
-}
-figcaption.project-info1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 5%;
-    margin-top: 1.5rem;
-    width: 100%;
-    height: 100%;
-}
-.project1 .project-info1{
-    position: absolute;
-    z-index: 3;
-    color: black;
-    opacity: 0;
-    transform: translateY(0);
-    transition: 0.1s;
-}
-.project-info1 p {
-    margin: 0;
-    letter-spacing: .15rem;
-}
 p.project-image{
     margin-bottom: 4rem;
 }
 .project-image img {
     width: 100%;
-    min-width: 100%;
     height: 100%;
-    object-fit: contain;
-    -o-object-fit: contain;
-    -webkit-box-align: center;
 }
 .project-info{
     color: black;
@@ -471,22 +444,18 @@ p.project-image{
 }
 .project-info p{
     position: absolute;
-    width: 100%;
     left: 0;
     top: -4rem;
-    letter-spacing: .25rem;
-    margin: 1rem;
-    text-align: center;
+    letter-spacing: .3rem;
+    margin:1rem;
 }
+
 /* Studio PAGE LAYOUT */
 .about{
     width: 100%;
     background: white;
     height: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: .25rem; 
-    padding-bottom: .25rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     align-content: center;
@@ -536,6 +505,7 @@ p.project-image{
     background: white;
     margin: .5rem;
     padding: 1rem;
+
 }
 .madeby{
     margin: .5rem;
@@ -553,4 +523,57 @@ p.project-image{
     padding: .5rem;
     letter-spacing: .1em;
     font-size: 0.9em;
+}
+figure {
+display: flex;
+margin: 0;
+}
+
+figure.project1:hover{
+    transform: translateY(0)
+}
+figure.project1:hover:before{
+    opacity: 1;
+}
+figure.project1:hover .project-info1{
+    opacity: 1;
+    transform: translateY(0) ;
+}
+
+figure.project1{
+    position: relative;
+}
+figure.project1:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    transition: 0.3s;
+    opacity: 0;
+    
+}
+figcaption.project-info1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.project1 .project-info1{
+    position: absolute;
+    z-index: 3;
+    color: black;
+    opacity: 0;
+    transform: translateY(0);
+    transition: 0.1s;
+}
+.project-info1 p {
+    margin: 0;
+    letter-spacing: .15rem;
 }
