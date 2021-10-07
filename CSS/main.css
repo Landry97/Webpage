@@ -579,3 +579,8 @@ figure.project{
 .project-info p {
     text-align: center
   }
+
+figure {
+display: flex;
+margin: 0;
+}
