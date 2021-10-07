@@ -174,15 +174,11 @@ width: 100%;
     border-radius: 0 3px 3px 0;
   }
   .previous{
-   margin-right: auto;
-      left:0;
-  }
-  
-  .next {
    margin-left: auto;
-      right:0;
   }
-  
+  .next {
+   margin-right: auto;
+  }
   .previous:hover,
   .next:hover {
     background-color: transparent;
