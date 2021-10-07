@@ -175,13 +175,11 @@ width: 100%;
     border-radius: 0 3px 3px 0;
   }
   .previous {
-      left: 0%;
       width: 45%;
       height: 40%;
   }
   
   .next {
-    right: 0%;
     width: 45%;
     height: 40%;
   }
