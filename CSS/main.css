@@ -10,8 +10,6 @@ html{
     width: 100%;
 } 
 body{
-    position: relativ;
-    min-height: 100%;
     color: black;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
@@ -318,8 +316,6 @@ div.min-width{
 /* FOOTER */
 footer{
     margin-top: auto;
-    position: absolute;
-    bottom: 0.5rem;
     width: 100%;
     padding-top: 1.5rem;
     color: white;
