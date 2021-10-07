@@ -168,10 +168,10 @@ width: 100%;
     border-radius: 0 3px 3px 0;
   }
   .previous{
-   left: 3%;
+   left: 5%;
   }
   .next {
-   right: 3%;
+   right: 5%;
   }
   div.direction{
     display: flex;
