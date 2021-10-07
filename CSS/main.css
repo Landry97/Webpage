@@ -10,6 +10,7 @@ html{
     width: 100%;
 } 
 body{
+    min-height: 100%;
     color: black;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
