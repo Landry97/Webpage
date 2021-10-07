@@ -5,12 +5,12 @@
     -webkit-box-sizing: border-box;
 }
 html{
-    min-height: 100vh;
+    min-height: 100%;
     height: 100%;
     width: 100%;
 } 
 body{
-    min-height: 100%;
+    min-height: 100vh;
     color: black;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
