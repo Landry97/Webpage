@@ -488,7 +488,10 @@ p.project-image{
     width: 100%;
     background: white;
     height: auto;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
     display: flex;
     align-items: center;
     align-content: center;
