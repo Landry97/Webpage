@@ -317,7 +317,7 @@ div.min-width{
 /* FOOTER */
 .footer-wrapper{
 	height: auto;
-	min-height: 70vh;
+	min-height: 15vh;
 	display: flex;
 	align-content: flex-end;
 }
