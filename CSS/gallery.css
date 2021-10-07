@@ -162,11 +162,10 @@ width: 100%;
   }
   .previous,
   .next {
-    display: flex;
     justify-content: center;
     cursor: pointer;
     position: absolute;
-    width: auto;
+    width: 100%;
     padding: 16px;
     color: black;
     font-weight: bold;
@@ -176,13 +175,10 @@ width: 100%;
   }
   .previous {
       left:0;
-      width: 45%;
-      height: 40%;
   }
   
   .next {
-    width: 45%;
-    height: 40%;
+      right:0;
   }
   
   .previous:hover,
