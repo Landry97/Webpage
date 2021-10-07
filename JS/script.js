@@ -15,7 +15,7 @@ mybutton = document.getElementById("myBtn");
 // [When the user scrolls down 20px from the top of the document, show the button]
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
        mybutton.style.display = "block";} 
        else {
        mybutton.style.display = "none";}
