@@ -524,10 +524,6 @@ p.project-image{
     letter-spacing: .1em;
     font-size: 0.9em;
 }
-figure {
-display: flex;
-margin: 0;
-}
 
 figure.project1:hover{
     transform: translateY(0)
