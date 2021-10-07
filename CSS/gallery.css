@@ -165,7 +165,7 @@ width: 100%;
     justify-content: center;
     cursor: pointer;
     position: absolute;
-    padding: 16px;
+    padding: 0;
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
@@ -173,10 +173,10 @@ width: 100%;
     border-radius: 0 3px 3px 0;
   }
   .previous{
-   margin-left: auto;
+   left: 0;
   }
   .next {
-   margin-right: auto;
+   right: 0;
   }
   .previous:hover,
   .next:hover {
