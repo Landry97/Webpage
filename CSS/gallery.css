@@ -1,6 +1,8 @@
-body { height: 100%;}
 html { overflow: hidden; }
-body { overflow-y: scroll; }
+body {
+ height: 100%;
+ overflow-y: scroll; 
+}
   *, *:before, *:after {
     box-sizing: border-box;
   }
