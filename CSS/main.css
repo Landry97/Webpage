@@ -423,6 +423,65 @@ p.project-image:hover, .project-info:hover{
     color: rgb(219, 10, 10);
 }
 /* END ACTIVE PAGE/HOVER */
+
+figure {
+display: flex;
+margin: 0;
+}
+figure.project1:hover{
+    transform: translateY(0)
+}
+figure.project1:hover:before{
+    opacity: 1;
+}
+figure.project1:hover .project-info1{
+    opacity: 1;
+    transform: translateY(0) ;
+}
+figure.project1{
+    position: relative;
+}
+figure.project1:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    transition: 0.3s;
+    opacity: 0;
+}
+figcaption.project-info1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+.project-info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+}
+.project1 .project-info1{
+    position: absolute;
+    z-index: 3;
+    color: black;
+    opacity: 0;
+    transform: translateY(0);
+    transition: 0.1s;
+}
+.project-info1 p {
+    margin: 0;
+    letter-spacing: .15rem;
+}
 p.project-image{
     margin-bottom: 4rem;
 }
@@ -519,68 +578,4 @@ p.project-image{
     padding: .5rem;
     letter-spacing: .1em;
     font-size: 0.9em;
-}
-figure.project1:hover{
-    transform: translateY(0)
-}
-figure.project1:hover:before{
-    opacity: 1;
-}
-figure.project1:hover .project-info1{
-    opacity: 1;
-    transform: translateY(0) ;
-}
-figure.project1{
-    position: relative;
-}
-figure.project1:before{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 2;
-    transition: 0.3s;
-    opacity: 0;
-}
-figcaption.project-info1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 5%;
-    margin-top: 1.5rem;
-    width: 100%;
-    height: 100%;
-}
-.project-info p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-    margin-top: 1rem;
-}
-.project1 .project-info1{
-    position: absolute;
-    z-index: 3;
-    color: black;
-    opacity: 0;
-    transform: translateY(0);
-    transition: 0.1s;
-}
-.project-info1 p {
-    margin: 0;
-    letter-spacing: .15rem;
-}
-figure.project{
-    margin: 0.5rem;
-  }
-.project-info p {
-    text-align: center
-  }
-
-figure {
-display: flex;
-margin: 0;
 }
