@@ -227,6 +227,9 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
+.menu-toggle.show{
+    display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ__*/
+}
 #nav-ul.show{
     display: flex;
     position: relative;
