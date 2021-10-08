@@ -143,6 +143,12 @@ nav .menu{
     flex: 1;
 }
 .menu-toggle {
+    text-decoration: none;
+    position: relative;
+    left: 0%;
+    margin-left: 1rem;
+	}
+.menu-toggle {
     display: none;
     background: url("black-point.png") no-repeat;
         background-position-x: 0%;
@@ -159,10 +165,6 @@ nav .menu{
     width: 5%;
     cursor: pointer;
     z-index: 1000;
-    text-decoration: none;
-    position: relative;
-    left: 0%;
-    margin-left: 1rem;
 }
 nav.menu li{
 display: flex;
