@@ -480,13 +480,13 @@ p.project-image{
     text-align: center;
     justify-content: center;
     margin: .5rem;
-    padding: 1rem;
+    padding: .8rem;
 }
 .holdingcontainer {
     width: 100%;
     background: white;
     height: auto;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     margin-top: auto;
