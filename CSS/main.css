@@ -260,7 +260,7 @@ address div p a{
 
 #address.show{
     color: black;
-    background-color: white;
+    background-color: red;
     top: 10%;
     display: flex;
     flex-direction: column;
@@ -269,6 +269,9 @@ address div p a{
     justify-content: center;
     text-decoration: none;
     height: 50vh;
+}
+#address.show:hover, #menu.show:hover{
+	color: white;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
