@@ -12,9 +12,15 @@ menu.addEventListener('click', () => {
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
 }); 
-menu.addEventListener('click', () => {
-        document.header.style.display = 'none';
-}); 
+const menu = document.getElementById('menu-toggle');
+menu.onclick = function () {
+  if (menu.style.display !== "flex") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "flex";
+  }
+};
+
 
 //function disableScrolling(){
 //    var x=window.scrollX;
