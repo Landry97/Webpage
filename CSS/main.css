@@ -381,6 +381,7 @@ footer p a {
 }
 /* Scrollup Button________________________________________________________________ */
 #myBtn {
+    display: none;
     align-items: center;
     margin-right: 2rem;
     margin-left: auto;
