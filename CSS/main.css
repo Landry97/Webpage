@@ -235,6 +235,9 @@ address div p a{
     min-width: 100vw;
     width: 100%;
     height: 100vh;
+	
+    display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     z-index: 101;
@@ -269,7 +272,8 @@ address div p a{
     justify-content: center;
     align-content: center;
     text-decoration: none;
-    height: 50vh;
+    margin-top: auto;
+    height: auto;
 }
 #address.show li a{
     font-size: 0.8rem;
