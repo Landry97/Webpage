@@ -447,10 +447,12 @@ p.project-image{
 }
 .project-info p{
     position: absolute;
+    width: 100%;
     left: 0;
     top: -4rem;
-    letter-spacing: .3rem;
-    margin:1rem;
+    letter-spacing: .25rem;
+    margin: 1rem;
+    text-align: center;
 }
 
 /* Studio PAGE LAYOUT */
