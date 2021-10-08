@@ -230,8 +230,8 @@ address div p a{
 #navMenu.show { 
     left:0rem;
     right: 0rem;
-    top: -1.5rem;
-    bottom: 0rem;
+    top: -1.5rem; /*.DISTANCE OVERLAP ALL HEADER*/
+    bottom: -1.5rem;
     font-size: 1.75rem;
     letter-spacing: .6rem;
     width: 100%;
