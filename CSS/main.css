@@ -225,10 +225,10 @@ address div p a{
     display: none; 
 	}
 #navMenu.show { 
-    left: -3rem;
-    right: -3rem;
+    left: 0;
+    right: 0;
     top: -1.5rem; /*.DISTANCE OVERLAP ALL HEADER*/
-    bottom: -3rem;
+    bottom: 0;
     font-size: 1.75rem;
     letter-spacing: .6rem;
     width: 100%;
