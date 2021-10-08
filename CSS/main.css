@@ -226,7 +226,7 @@ address div p a{
 	}
 #navMenu.show { 
     left: 0;
-    right: 3rem;
+    margin-right: 3rem;
     top: -1.5rem; /*.DISTANCE OVERLAP ALL HEADER*/
     bottom: 0;
     font-size: 1.75rem;
