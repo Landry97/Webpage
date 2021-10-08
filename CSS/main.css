@@ -254,9 +254,10 @@ address div p a{
     padding: 2rem;
     margin: 1.5rem;
 }
-#nav-ul.show li.menu-item a:hover{
+#nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
 	color: white;
-}
+} /*Hover Work and About*/
+
 #address.show{
     color: black;
     background-color: red;
