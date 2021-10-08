@@ -1,10 +1,9 @@
 // MENU____ CLICK -> SHOW________________________________________________________________
-const menu = document.getElementById ('menu-toggle');
-const navUL = document.getElementById ('nav-ul');
+const menu = document.getElementById('menu-toggle');
+const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 menu.addEventListener('click', () => {
-      menu.classList.toggle('show');
       navUL.classList.toggle('show');
       navMenu.classList.toggle('show');
       address.classList.toggle('show');
@@ -12,6 +11,7 @@ menu.addEventListener('click', () => {
 
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
+      document.getElementById('menu-toggle').style.display = none;
 }); 
 
 
