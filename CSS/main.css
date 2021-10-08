@@ -448,6 +448,7 @@ p.project-image{
 .project-info p{
     position: absolute;
     width: auto;
+    min-width: 100%;
     left: 0;
     top: -4rem;
     letter-spacing: .25rem;
