@@ -9,17 +9,15 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
-function disableScrolling(){
-    var x=window.scrollX;
-    var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);};
-}
-
-function enableScrolling(){
-    window.onscroll=function(){};
-}
-
-
+//function disableScrolling(){
+//    var x=window.scrollX;
+//    var y=window.scrollY;
+//    window.onscroll=function(){window.scrollTo(x, y);};
+//}
+//
+//function enableScrolling(){
+//    window.onscroll=function(){};
+//}
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
