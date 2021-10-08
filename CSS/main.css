@@ -228,7 +228,24 @@ address div p a{
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
 .menu-toggle.show{
-    display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ__*/
+    display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ_funktioniert nicht__*/
+	
+/*CONTAINER SHOW*/
+#navMenu.show { 
+    left:0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    font-size: 1.75rem;
+    letter-spacing: .6rem;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    background-color: red; /*red background 100vh no scroll in javascript*/
+    z-index: 101;
+	background-color: white;
+}
 }
 #nav-ul.show{
     display: flex;
@@ -260,21 +277,6 @@ margin-right: 5%;
 	justify-content: center;
     text-decoration: none;
 	height: 50vh;
-}
-#navMenu.show {
-    left:0rem;
-    right: 0rem;
-    top: 0rem;
-    bottom: 0rem;
-    font-size: 1.75rem;
-    letter-spacing: .6rem;
-    width: 100%;
-    height: 100vh;
-    align-content: center;
-    align-items: center;
-    background-color: white;
-    z-index: 101;
-	background-color: white;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
