@@ -12,12 +12,7 @@ menu.addEventListener('click', () => {
 function disableScrolling(){
     var x=window.scrollX;
     var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);
-        if {
-       navMenu.style.display = "flex";} 
-       else {
-       mybutton.style.display = "none";}
-                              };
+    window.onscroll=function(){window.scrollTo(x, y);};
 }
 
 function enableScrolling(){
