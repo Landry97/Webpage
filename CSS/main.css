@@ -250,6 +250,8 @@ address div p a{
     background-color: white;
     color: black;
     top: 10%;
+margin-left: 5%;
+margin-right: 5%;
     align-items: center;
 	justify-content: center;
     text-decoration: none;
