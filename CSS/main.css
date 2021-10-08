@@ -187,12 +187,12 @@ li.menu-item a:hover{
     color:rgb(219, 10, 10);
 }
 
-nav.menu ul{
+nav.menu ul {
     display: flex;
     height: 100%;
     width: 100%;
 }
-nav.menu ul li{
+nav.menu ul li {
     margin-left:2rem;
 }
 nav.menu {
@@ -203,9 +203,6 @@ position: absolute;
 width: 100%;
 z-index: 101;
 }
-
-
-
 address{
     display: none;
     font-size: 1.25rem;
@@ -227,7 +224,7 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
-.menu-toggle.show{
+.menu-toggle.show {
     display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ_funktioniert nicht__*/
 	
 #navMenu.show { 
@@ -243,7 +240,6 @@ address div p a{
     align-items: center;
     z-index: 101;
     background-color: red;
-}
 }
 #nav-ul.show{
     display: flex;
