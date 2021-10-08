@@ -12,7 +12,6 @@ menu.addEventListener('click', () => {
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
 }); 
-const menu = document.getElementById('menu-toggle');
 menu.onclick = function () {
   if (menu.style.display !== "flex") {
     menu.style.display = "none";
