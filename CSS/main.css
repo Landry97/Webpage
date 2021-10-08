@@ -225,10 +225,10 @@ address div p a{
     display: none; 
 	}
 #navMenu.show { 
-    left:0rem;
-    right: 0rem;
+    left: -3rem;
+    right: -3rem;
     top: -1.5rem; /*.DISTANCE OVERLAP ALL HEADER*/
-    bottom: -1.5rem;
+    bottom: -3rem;
     font-size: 1.75rem;
     letter-spacing: .6rem;
     width: 100%;
@@ -249,7 +249,6 @@ address div p a{
     height: auto;
   overflow: hidden;
 }
-
 #nav-ul.show li{
     padding: 2rem;
     margin: 1.5rem;
@@ -257,8 +256,8 @@ address div p a{
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
 	color: white;
 } /*Hover Work and About*/
-
 #address.show{
+    font-size: 0.8rem;
     color: black;
     background-color: red;
     top: 10%;
@@ -269,6 +268,8 @@ address div p a{
     justify-content: center;
     text-decoration: none;
     height: 50vh;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
