@@ -259,18 +259,16 @@ address div p a{
 }
 
 #address.show{
+    color: black;
+    background-color: white;
+    top: 10%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: white;
-    color: black;
-    top: 10%;
-margin-left: 5%;
-margin-right: 5%;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-decoration: none;
-	height: 50vh;
+    height: 50vh;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
