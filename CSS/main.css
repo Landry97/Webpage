@@ -242,7 +242,7 @@ address div p a{
 #nav-ul.show{
     display: flex;
     position: relative;
-    top: 10%;
+    top: 15%;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
