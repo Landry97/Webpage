@@ -239,6 +239,7 @@ address div p a{
     flex-wrap: nowrap;
     width: 100%;
     height: auto;
+  overflow: hidden;
 }
 
 #nav-ul.show li{
