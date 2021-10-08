@@ -9,11 +9,9 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
-menu.addEventListener('click', () => {
+menu.addEventListener('toggle', () => {
         document.body.style.overflow = 'hidden';
 }); 
-menu.addEventListener('click', () => {
-        document.body.style.overflow = 'show';
 
 
 //function disableScrolling(){
