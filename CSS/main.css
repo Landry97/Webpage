@@ -225,8 +225,8 @@ address div p a{
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
 .menu-toggle.show {
-    display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ_funktioniert nicht__*/
-	
+    display: flex; 
+	}
 #navMenu.show { 
     left:0rem;
     right: 0rem;
