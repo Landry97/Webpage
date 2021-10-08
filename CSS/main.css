@@ -273,6 +273,7 @@ address div p a{
     align-content: center;
     text-decoration: none;
     margin-top: auto;
+    margin-bottom: 20%;
     height: auto;
 }
 #address.show li a{
