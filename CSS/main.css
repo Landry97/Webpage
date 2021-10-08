@@ -460,7 +460,10 @@ p.project-image{
     width: 100%;
     background: white;
     height: auto;
-    padding: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
     display: flex;
     align-items: center;
     align-content: center;
