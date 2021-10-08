@@ -9,7 +9,15 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
-document.body.style.overflow = 'hidden';
+function Choice () {
+    var menu = document.getElementById("menu-toggle");
+    if (yes.clicked == true) {
+        document.body.style.overflow = 'hidden';
+
+    } else if (no.clicked == true) {
+        document.body.style.overflow = 'show';
+    };
+};
 
 //function disableScrolling(){
 //    var x=window.scrollX;
