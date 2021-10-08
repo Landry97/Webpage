@@ -7,6 +7,7 @@ menu.addEventListener('click', () => {
       navUL.classList.toggle('show');
       navMenu.classList.toggle('show');
       address.classList.toggle('show');
+      menu.classList.toggle('show');
 }); 
 
 menu.addEventListener('click', () => {
