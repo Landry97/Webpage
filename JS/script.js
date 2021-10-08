@@ -9,6 +9,8 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
+document.body.style.overflow = 'hidden';
+
 //function disableScrolling(){
 //    var x=window.scrollX;
 //    var y=window.scrollY;
