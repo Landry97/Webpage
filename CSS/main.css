@@ -266,6 +266,7 @@ address div p a{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    align-content: center;
     text-decoration: none;
     height: 50vh;
 }
