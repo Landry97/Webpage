@@ -230,7 +230,7 @@ address div p a{
 #nav-ul.show{
     display: flex;
     position: relative;
-    top: 10rem;
+    top: 15%;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
@@ -252,9 +252,10 @@ address div p a{
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 10rem;
+    padding-bottom: 15%;
+    padding-top: 15%;
     text-decoration: none;
+	height: 50vh;
 }
 #navMenu.show {
     left:0rem;
