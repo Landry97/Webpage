@@ -8,6 +8,24 @@ menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       address.classList.toggle('show');
 }); 
+
+function disableScrolling(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);
+        if {
+       navMenu.style.display = "flex";} 
+       else {
+       mybutton.style.display = "none";}
+                              };
+}
+
+function enableScrolling(){
+    window.onscroll=function(){};
+}
+
+
+
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
 mybutton = document.getElementById("myBtn");
