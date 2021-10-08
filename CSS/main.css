@@ -224,8 +224,8 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
-.menu-toggle.show {
-    display: flex; 
+#menu.show {
+    display: none; 
 	}
 #navMenu.show { 
     left:0rem;
