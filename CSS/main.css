@@ -230,7 +230,6 @@ address div p a{
 .menu-toggle.show{
     display: flex; /*menu-punkt: soll nicht verschwinden wenn show activ_funktioniert nicht__*/
 	
-/*CONTAINER SHOW*/
 #navMenu.show { 
     left:0rem;
     right: 0rem;
@@ -242,9 +241,8 @@ address div p a{
     height: 100vh;
     align-content: center;
     align-items: center;
-    background-color: red; /*red background 100vh no scroll in javascript*/
     z-index: 101;
-	background-color: white;
+    background-color: red;
 }
 }
 #nav-ul.show{
