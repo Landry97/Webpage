@@ -11,7 +11,6 @@ menu.addEventListener('click', () => {
 
 menu.addEventListener('toggle', () => {
         document.body.style.overflow = 'hidden';
-      this.style.overflow = '';
 }); 
 
 
