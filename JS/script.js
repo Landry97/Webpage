@@ -11,10 +11,9 @@ menu.addEventListener('click', () => {
 
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
-      document.header.a.style.display = none;
 }); 
 menu.addEventListener('click', () => {
-      document.header.a.style.display = none;
+        document.header.style.display = 'none';
 }); 
 
 //function disableScrolling(){
