@@ -16,7 +16,7 @@ mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
      if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
-       mybutton.style.display = "block";} 
+       mybutton.style.display = "flex";} 
        else {
        mybutton.style.display = "none";}
    };
