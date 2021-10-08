@@ -142,13 +142,6 @@ nav .menu{
     display: flex;
     flex: 1;
 }
-.menu-toggle{
-    text-decoration: none;
-    position: relative;
-    left: 0%;
-    margin-left: 1rem;
-}
-
 .menu-toggle {
     display: none;
     background: url("black-point.png") no-repeat;
@@ -166,8 +159,11 @@ nav .menu{
     width: 5%;
     cursor: pointer;
     z-index: 1000;
+    text-decoration: none;
+    position: relative;
+    left: 0%;
+    margin-left: 1rem;
 }
-
 nav.menu li{
 display: flex;
 align-content: center;
@@ -186,7 +182,6 @@ li.menu-item a{
 li.menu-item a:hover{
     color:rgb(219, 10, 10);
 }
-
 nav.menu ul {
     display: flex;
     height: 100%;
@@ -257,7 +252,9 @@ address div p a{
     padding: 2rem;
     margin: 1.5rem;
 }
-
+#nav-ul.show li.menu-item a:hover{
+	color: white;
+}
 #address.show{
     color: black;
     background-color: red;
@@ -269,9 +266,6 @@ address div p a{
     justify-content: center;
     text-decoration: none;
     height: 50vh;
-}
-#address.show:hover, #menu.show:hover{
-	color: white;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
