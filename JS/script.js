@@ -7,9 +7,8 @@ menu.addEventListener('click', () => {
       navUL.classList.toggle('show');
       navMenu.classList.toggle('show');
       address.classList.toggle('show');
-      menu.classList.toggle('show');
 }); 
-//TO TOP BUTTON (old)_____________________________________________________________________
+//TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
 mybutton = document.getElementById("myBtn");
 // [When the user scrolls down 20px from the top of the document, show the button]
