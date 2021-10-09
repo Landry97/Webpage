@@ -4,8 +4,8 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 menu.addEventListener('click', () => {
-      navUL.classList.toggle('show');
       navMenu.classList.toggle('show');
+      navUL.classList.toggle('show');
       address.classList.toggle('show');
 }); 
 
