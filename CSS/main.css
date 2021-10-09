@@ -259,7 +259,7 @@ address div p a{
 	color: white;
 } /*Hover Work and About*/
 #address.show{
-	transform: translateY(1.5rem); /*.DISTANCE */
+    transform: translateY(100%);
     font-size: 0.8rem;
     color: black;
     background-color: red;
