@@ -244,7 +244,7 @@ address div p a{
     background-color: red;
 }
 #nav-ul.show{
-    transform: translateY(20%); /*.DISTANCE */
+    transform: translateY(100%); /*.DISTANCE */
     display: flex;
     top: 15%;
     flex-direction: column;
