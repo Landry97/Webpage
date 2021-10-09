@@ -9,8 +9,9 @@ menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
-      activePage.toggle('activePage2');
+      document.getElementsByClassName("activePage").classList.toggle('classname');
 }); 
+
 
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
