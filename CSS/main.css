@@ -327,12 +327,10 @@ main ul{
     text-align: center 
 }
 main ul li{
-    position: block; /*  links größe konstant in chrome*/
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    text-decoration-style: none;
     list-style-type: none;
 }
 main ul li:hover{
