@@ -3,13 +3,11 @@ const menu = document.getElementById('menu-toggle');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
-var activePage = document.getElementsByClassName("activePage");
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
-      document.getElementsByClassName("activePage").classList.toggle('classname');
 }); 
 
 
