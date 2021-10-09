@@ -9,7 +9,7 @@ menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
-      activePage.classList.toggle('activePage2');
+      activePage.className.toggle('activePage2');
 }); 
 
 menu.addEventListener('click', () => {
