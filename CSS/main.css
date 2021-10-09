@@ -283,7 +283,7 @@ address div p a{
     font-size: 0.8rem;
     color: black;
 }
-#activePage.show a{
+.activePage.show a{
 	color: white;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
