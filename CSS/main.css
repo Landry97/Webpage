@@ -283,6 +283,9 @@ address div p a{
     font-size: 0.8rem;
     color: black;
 }
+#activePage.show a{
+	color: white;
+}
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
 @media (max-width: 950px) {
