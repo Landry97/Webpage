@@ -255,6 +255,10 @@ address div p a{
 #nav-ul.show li{
     margin: 1.5rem;
 }
+#nav-ul.show li.menu-item a{
+	color: black;
+	z-index:101;
+	}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
 	color: white;
 } /*Hover Work and About*/
