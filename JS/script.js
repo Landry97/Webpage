@@ -3,7 +3,7 @@ const menu = document.getElementById('menu-toggle');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
-const activePage = document.getElementById('activePage');
+const activePage = document.getElementByclass('activePage');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
