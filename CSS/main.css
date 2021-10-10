@@ -1,7 +1,9 @@
 .text typo-sans typo-medium p, .text typo-sans typo-medium p a{
     font-size: .7rem;
 }
-
+#address.studio-address-on-mobile p a{
+    font-size: .7rem;
+}
 
 * {
     margin: 0%;
