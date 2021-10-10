@@ -21,7 +21,6 @@ footer{
       justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
-      margin-bottom: 2.5%;
   }
   .col {
    flex-wrap: wrap;
@@ -30,6 +29,8 @@ footer{
    align-items: center;
    justify-content: center;
    cursor: pointer;
+   width: auto;
+   height: auto; 
   }
 .col picture{
  width: 100%
