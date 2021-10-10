@@ -24,12 +24,11 @@ footer{
   }
   .col {
    flex-wrap: wrap;
-   margin: 1.5rem;
    display: flex;
    align-items: center;
    justify-content: center;
    cursor: pointer;
-   width: 100%;
+   width: auto;
    height: auto; 
   }
 .col picture{
