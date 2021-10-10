@@ -252,9 +252,8 @@ overflow: hidden;
 
 }
 #nav-ul.show{
-    transform: translateY(6rem);
+    transform: translateY(15%);
     display: flex;
-    top: 15%;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
