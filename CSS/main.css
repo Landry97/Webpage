@@ -241,7 +241,7 @@ address div p a{
     position: absolute;
     text-indent: -100rem;
     width: 5%;
-    z-index: 101;
+    z-index: 101000;
 } 
 
 #menu.show {
@@ -264,7 +264,7 @@ overflow: hidden;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    z-index: 1010000;
+    z-index: 101;
     background-color: red;
 
 }
