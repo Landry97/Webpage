@@ -16,7 +16,8 @@ menu.addEventListener('click', twice () => {
 
 
 menu.addEventListener('click', once () => {
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden'; 
+}); 
 
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
