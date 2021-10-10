@@ -256,11 +256,11 @@ address div p a{
     margin: 1.5rem;
 }
 #nav-ul.show li.menu-item a{
-	color: white;
+	color: black;
 	z-index:101;
 	}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
-	color: red;
+	color: white;
 } /*Hover Work and About*/
 #address.show{
     transform: translateY(6.5rem);
