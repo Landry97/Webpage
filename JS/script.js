@@ -1,5 +1,5 @@
 // MENU____ CLICK -> SHOW________________________________________________________________
-const menu = document.getElementById('menu-toggle','menu-toggle2');
+const menu = document.getElementById('menu-toggle');
 const menu2 = document.getElementById('menu-toggle2');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
