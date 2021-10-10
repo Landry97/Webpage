@@ -29,9 +29,11 @@ footer{
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 100%;
    cursor: pointer;
   }
+.col picture{
+ width: 100%
+    }
   #myBtn {
     display: block;
 }
