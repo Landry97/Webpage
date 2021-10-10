@@ -234,17 +234,20 @@ address div p a{
     font-size: 0.6rem;
 	}
 #menu-toggle.show{
-    height: 20px;
-    left: 2.5%;
-    width: 8px;
-    border-radius: 0;
-} 
-#menu-toggle2.show{
-    display: flex;
-    height: 8px;
-    left: 5%;
-    width: 20px;
-    border-radius: 0;
+	background: url("black-cross.png") no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-position: 50% calc(50% - .125rem);
+    background-size: 1rem 1rem;
+    background-color: transparent;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    text-indent: -100rem;
+    top: 0;
+    left: 0;
+    width: 5%;
 } 
 
 #menu.show {
