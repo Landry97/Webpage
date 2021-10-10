@@ -360,7 +360,7 @@ footer{
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
     letter-spacing: .1rem;
 }
