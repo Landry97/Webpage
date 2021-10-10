@@ -24,6 +24,7 @@ footer{
       margin-bottom: 2.5%;
       margin-top: 1.5rem;
       cursor: pointer;
+   width: 100%;
   }
   #myBtn {
     display: block;
