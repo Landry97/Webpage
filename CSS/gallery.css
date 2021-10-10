@@ -24,6 +24,8 @@ footer{
       max-width: 100%;
       margin-bottom: 2.5%;
       margin-top: 1.5rem;
+      width: 100%;
+      height: auto;
   }
   #myBtn {
     display: block;
