@@ -309,13 +309,15 @@ overflow: hidden;
     .balkentext{
         display: none;
     }
-}
-
-@media (max-width: 1020px) {
-    .balkentext{
+	.balken2{
+        display: none;
+    }
+     .balken3{
         display: none;
     }
 }
+
+
 /*@media_END_______________________________________________________________________________*/
 
 .workclass{ 
