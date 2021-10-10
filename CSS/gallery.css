@@ -33,7 +33,7 @@ footer{
    justify-content: center;
    cursor: pointer;
    width: fit-content;
-   height: auto; 
+   height: fit-content; 
   }
 .col picture{
  width: 100%;
