@@ -11,8 +11,12 @@ menu.addEventListener('click', () => {
 }); 
 
 
- menu.addEventListener('click', () => {
+ menu.addEventListener('click', first () => {
         document.body.style.overflow = 'hidden'; 
+}); 
+
+ menu.addEventListener('click', second () => {
+        document.body.style.overflow = 'visible'; 
 }); 
 
 menu.addEventListener('click', clickHandler);
