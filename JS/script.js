@@ -23,10 +23,10 @@ menu.onclick = function () {
   }
 };
 menu.onclick = function () {
-  if (aktiv.style:hover.color !== "red") {
+  if (aktiv.style:hover.color !== "rgb(219, 10, 10)") {
     aktiv.style:hover.color = "white";
   } else {
-    aktiv.style:hover.color = "red";
+    aktiv.style:hover.color = "rgb(219, 10, 10)";
   }
 };
 
