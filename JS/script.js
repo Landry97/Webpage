@@ -21,7 +21,7 @@ menu.onclick = function () {
     menu.style.display = "flex";
   }
 };
-document.getElementsByClassName("activePage").hover = function() 
+document.getElementsByClassName("activePage") = function() 
 {
     this.style.color = "white";
 }
