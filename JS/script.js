@@ -1,5 +1,6 @@
 // MENU____ CLICK -> SHOW________________________________________________________________
 const menu = document.getElementById('menu-toggle');
+const menu2 = document.getElementById('menu-toggle2');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
@@ -11,7 +12,7 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
       body.classList.toggle('show');
       menu.classList.toggle('show');
-      document.createElement("menu-toggle2");
+      menu2.classList.toggle('show');
 }); 
 
 
