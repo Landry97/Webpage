@@ -224,9 +224,10 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/body
-.bodyclass show{
-	overflow: hidden;
-}
+
+#address.studio-address-on-mobile{
+    font-size: 0.6rem;
+	}
 #menu.show {
     display: none; 
 	overflow: hidden;
