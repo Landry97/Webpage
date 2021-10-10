@@ -264,7 +264,7 @@ overflow: hidden;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    z-index: 101;
+    z-index: 1010000;
     background-color: red;
 
 }
