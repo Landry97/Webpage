@@ -22,7 +22,6 @@ footer{
       flex-direction: row;
       flex-wrap: wrap;
       margin-bottom: 2.5%;
-      margin-top: 1.5rem;
   }
   .col {
    flex-wrap: wrap;
