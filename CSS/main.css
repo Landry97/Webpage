@@ -260,7 +260,6 @@ overflow: hidden;
     flex-wrap: nowrap;
     width: 100%;
     height: auto;
-    color: white;
 }
 #nav-ul.show li{
     margin: 1.5rem;
@@ -281,7 +280,7 @@ overflow: hidden;
 } /*Hover Work and About*/
 #address.show{
     transform: translateY(6.5rem);
-    color: white;
+    color: black;
     background-color: red;
     display: flex;
     flex-direction: column;
