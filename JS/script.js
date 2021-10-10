@@ -10,6 +10,7 @@ menu.addEventListener('click', () => {
       navUL.classList.toggle('show');
       address.classList.toggle('show');
       body.classList.toggle('show');
+      menu.classList.toggle('show');
 }); 
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
