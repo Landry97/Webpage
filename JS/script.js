@@ -3,11 +3,13 @@ const menu = document.getElementById('menu-toggle');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
+const body = document.getElementById('bodyid');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
+      body.classList.toggle('show');
 }); 
 
 window.onload = function() {
