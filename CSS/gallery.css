@@ -24,6 +24,7 @@ footer{
       flex-wrap: wrap;
    align-content: center;
       width: 100%;
+      height: auto;
   }
   .col {
    flex-wrap: wrap;
