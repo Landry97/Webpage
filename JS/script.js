@@ -11,24 +11,20 @@ menu.addEventListener('click', () => {
 }); 
 
 
- menu.addEventListener('click', first () => {
+ menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden'; 
 }); 
 
- menu.addEventListener('click', second () => {
-        document.body.style.overflow = 'visible'; 
-}); 
-
-menu.addEventListener('click', first);
-
-function first(e){
-    e.stopImmediatePropagation();
-    this.removeEventListener("click", first);
-    document.onclick = second;
+window.onload = function() {
+    var menuu = document.getElementsByTagName('menu-toggle');
+    for (var x = 0; x < menuu.length; x++) {
+        menuu[x].addEventListener('click', ausgabe, false);
+    }
+    function ausgabe() {
+        alert('Ausgabe über Funktion ausgabe');
+    }
 }
-function second(){
-    alert("I'm not suppose to appear after the first click, only the second.");
-}
+
 
 
 
