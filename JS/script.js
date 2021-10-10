@@ -13,13 +13,13 @@ menu.addEventListener('click', () => {
 
  menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden'; 
+}); 
 
 menu.addEventListener('click', clickHandler);
 
 function clickHandler(event){
   event.target.dataset.clickcount++;
   if(event.target.dataset.clickcount==2){
-    event.target.removeEventListener("click");
     menu.addEventListener('click', () => {
         document.body.style.overflow = 'visible'; 
 }); 
