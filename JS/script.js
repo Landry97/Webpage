@@ -4,7 +4,7 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 
-menu.addEventListener('click', once () => {
+menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
@@ -15,7 +15,7 @@ menu.addEventListener('click', twice () => {
 }); 
 
 
-menu.addEventListener('click', () => {
+menu.addEventListener('click', once () => {
         document.body.style.overflow = 'hidden';
 }); 
 //menu.onclick = function () {
