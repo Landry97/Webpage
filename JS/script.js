@@ -10,12 +10,12 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
-menu.addEventListener('click', twice () => {
+menu.addEventListener('click', (twice) => {
    document.body.style.overflow = '';
 }); 
 
 
-menu.addEventListener('click', once () => {
+menu.addEventListener('click', (once) => {
         document.body.style.overflow = 'hidden'; 
 }); 
 
