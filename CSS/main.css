@@ -224,12 +224,13 @@ address div p a{
 /*.SHOW_MENU_START______________________________________________________________________________*/body
 .bodyclass show{
 	overflow: hidden;
-	height: 100%;
 }
 #menu.show {
     display: none; 
+	overflow: hidden;
 	}
-#navMenu.show { 
+#navMenu.show {
+overflow: hidden;
     left: 0;
     right: 0;
     top: 0; 
@@ -246,6 +247,7 @@ address div p a{
     align-items: center;
     z-index: 101;
     background-color: red;
+
 }
 #nav-ul.show{
     transform: translateY(6rem);
