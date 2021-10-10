@@ -2,6 +2,7 @@ html { overflow: hidden; }
 body {
  height: 100%;
  overflow-y: scroll; 
+align-items: center;
 }
   *, *:before, *:after {
     box-sizing: border-box;
