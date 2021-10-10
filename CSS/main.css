@@ -251,9 +251,14 @@ address div p a{
     flex-wrap: nowrap;
     width: 100%;
     height: auto;
+    color: white;
 }
-#nav-ul.show.activePage{
-color:yellow;
+#nav-ul.show .activePage{
+color: yellow;
+}
+
+.activePage #nav-ul.show {
+color: yellow;
 }
 
 #nav-ul.show li{
