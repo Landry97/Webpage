@@ -252,7 +252,7 @@ address div p a{
     width: 100%;
     height: auto;
 }
-#nav-ul.show .activePage{
+#nav-ul.show.activePage{
 color:yellow;
 }
 
