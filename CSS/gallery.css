@@ -31,7 +31,7 @@ footer{
    align-items: center;
    justify-content: center;
    cursor: pointer;
-   width: auto;
+   width: fit-content;
    height: auto; 
   }
 .col picture{
