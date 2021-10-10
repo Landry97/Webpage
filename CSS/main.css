@@ -1,4 +1,4 @@
-div.text typo-sans typo-medium p,div.text typo-sans typo-medium p a{
+.text typo-sans typo-medium p, .text typo-sans typo-medium p a{
     font-size: .7rem;
 }
 
