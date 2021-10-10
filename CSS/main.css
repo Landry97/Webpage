@@ -235,13 +235,10 @@ address div p a{
 	}
 #menu-toggle.show{
 	background: url("black-cross.png") no-repeat;
-    background-size: 1.3rem 1.3rem;
+    background-size: 1rem 1rem;
     background-color: transparent;
     height: 100%;
     width: 5%;
-    z-index: 101000;
-    left: 0;
-    top:0;
 } 
 
 #menu.show {
