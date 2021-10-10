@@ -240,7 +240,7 @@ address div p a{
     align-content: center;
     align-items: center;
     z-index: 101;
-    background-color: red;
+    background-color: black;
 }
 #nav-ul.show{
     transform: translateY(6rem);
@@ -256,15 +256,15 @@ address div p a{
     margin: 1.5rem;
 }
 #nav-ul.show li.menu-item a{
-	color: black;
+	color: white;
 	z-index:101;
 	}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
-	color: white;
+	color: red;
 } /*Hover Work and About*/
 #address.show{
     transform: translateY(6.5rem);
-    color: black;
+    color: white;
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -280,10 +280,7 @@ address div p a{
 }
 #address.show li a{
     font-size: 0.8rem;
-    color: black;
-}
-.activePage.activePage2 a{
-	color: white;
+    color: white;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
