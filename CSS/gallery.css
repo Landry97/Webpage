@@ -21,6 +21,7 @@ footer{
       justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
+   align-content: center;
       width: 90%;
   }
   .col {
