@@ -227,10 +227,7 @@ address div p a{
 	}
 #menu.show {
     display: none;
-    height: 100%;
-    left: 2.5%;
-    width: 8px;
-    border-radius: 0;
+	overflow: hidden;
 }
 	}
 #navMenu.show {
