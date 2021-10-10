@@ -226,8 +226,12 @@ address div p a{
     font-size: 0.6rem;
 	}
 #menu.show {
-    display: none; 
-	overflow: hidden;
+    display: none;
+    height: 100%;
+    left: 2.5%;
+    width: 8px;
+    border-radius: 0;
+}
 	}
 #navMenu.show {
 overflow: hidden;
