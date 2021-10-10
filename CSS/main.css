@@ -240,7 +240,7 @@ address div p a{
     align-content: center;
     align-items: center;
     z-index: 101;
-    background-color: black;
+    background-color: red;
 }
 #nav-ul.show{
     transform: translateY(6rem);
@@ -265,7 +265,7 @@ address div p a{
 #address.show{
     transform: translateY(6.5rem);
     color: white;
-    background-color: black;
+    background-color: red;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -278,7 +278,7 @@ address div p a{
 	margin-top: auto;
 	margin-bottom: 60%;
 }
-#address.show ul li a{
+#address.show li a{
     font-size: 0.8rem;
     color: white;
 }
