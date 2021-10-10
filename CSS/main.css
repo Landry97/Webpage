@@ -253,14 +253,13 @@ address div p a{
     height: auto;
     color: white;
 }
-#nav-ul.show li a{
-	color: white;}
-#nav-ul.show .activePage li a{
-color: yellow;
-}
 #nav-ul.show li{
     margin: 1.5rem;
 }
+#nav-ul.show li.activePage a{
+	color: yellow;
+	z-index:101;
+	}
 #nav-ul.show li.menu-item a{
 	color: black;
 	z-index:101;
@@ -285,8 +284,7 @@ color: yellow;
 	margin-bottom: 60%;
 }
 #address.show li a{
-    font-size: 0.8rem;
-    color: white;
+    color: black;
 }
 /*SHOW_MENU_END___________________________________________________________________________*/
 /*@media_START_____________________________________________________________________________*/
