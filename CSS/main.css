@@ -119,11 +119,6 @@ header{
     list-style-type: none;
 }
 
-@media screen and (max-width:300px) {
-    .header-title a span{
-        font-size: 0.9rem;
-    }
-}
 .header-title a span{
     color: black;
     font-size: 1.25rem;
@@ -135,6 +130,11 @@ header{
     line-height: normal;
     position: static;
     z-index: auto;
+}
+@media screen and (max-width:330px) {
+    .header-title a span{
+        font-size: 0.9rem;
+    }
 }
 .header-title p{
     color: black;
