@@ -164,6 +164,15 @@ nav .menu{
     z-index: 1000;
     background-color: black;
 }
+.menu-toggle2{
+    display: none;
+    position: absolute;
+    text-indent: -100rem;
+    left: 2.5%;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: black;
+} 
 
 nav.menu li{
 display: flex;
@@ -228,6 +237,13 @@ address div p a{
     height: 20px;
     left: 2.5%;
     width: 8px;
+    border-radius: 0;
+} 
+#menu-toggle2.show{
+    display: flex;
+    height: 8px;
+    left: 2.5%;
+    width: 20px;
     border-radius: 0;
 } 
 
