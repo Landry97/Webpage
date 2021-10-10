@@ -253,6 +253,8 @@ address div p a{
     height: auto;
     color: white;
 }
+#nav-ul.show li a{
+	color: white;}
 #nav-ul.show .activePage li a{
 color: yellow;
 }
