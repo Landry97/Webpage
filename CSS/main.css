@@ -241,6 +241,7 @@ address div p a{
     align-items: center;
     z-index: 101;
     background-color: red;
+    overflow: hidden;
 }
 #nav-ul.show{
     transform: translateY(6rem);
