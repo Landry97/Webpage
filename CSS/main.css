@@ -224,8 +224,8 @@ address div p a{
 #address.studio-address-on-mobile{
     font-size: 0.6rem;
 	}
-.menu-toggle show{
-    height: 100%;
+#menu-toggle.show{
+    height: 20px;
     left: 2.5%;
     width: 8px;
     border-radius: 0;
