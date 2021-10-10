@@ -3,7 +3,6 @@ const menu = document.getElementById('menu-toggle');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
-var aktiv = document.getElementsByClassName('activePage');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -22,13 +21,10 @@ menu.onclick = function () {
     menu.style.display = "flex";
   }
 };
-menu.onclick = function () {
-  if (aktiv.style:hover.color !== "rgb(219, 10, 10)") {
-    aktiv.style:hover.color = "white";
-  } else {
-    aktiv.style:hover.color = "rgb(219, 10, 10)";
-  }
-};
+document.getElementsByClassName("activePage").onmouseover = function() 
+{
+    this.style.color = "white";
+}
 
 
 //function disableScrolling(){
