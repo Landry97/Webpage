@@ -275,7 +275,9 @@ address div p a{
     align-content: center;
     text-decoration: none;
     height: auto;
-	width: 80%;
+	width: 65%;
+	margin-top: auto;
+	margin-bottom: 25%;
 }
 #address.show li a{
     font-size: 0.8rem;
