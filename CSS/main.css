@@ -243,7 +243,7 @@ address div p a{
     background-color: red;
 }
 #nav-ul.show{
-    transform: translateY(100%); 
+    transform: translateY(8rem);
     display: flex;
     top: 15%;
     flex-direction: column;
@@ -263,11 +263,10 @@ address div p a{
 	color: white;
 } /*Hover Work and About*/
 #address.show{
-    transform: translateY(150%);
+    transform: translateY(8rem);
     font-size: 0.8rem;
     color: black;
     background-color: red;
-    top: 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -275,9 +274,8 @@ address div p a{
     justify-content: center;
     align-content: center;
     text-decoration: none;
-    margin-top: auto;
-    margin-bottom: 75%;
     height: auto;
+	width: 80%;
 }
 #address.show li a{
     font-size: 0.8rem;
