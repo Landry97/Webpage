@@ -253,14 +253,9 @@ address div p a{
     height: auto;
     color: white;
 }
-#nav-ul.show .activePage{
+#nav-ul.show .activePage li a{
 color: yellow;
 }
-
-.activePage #nav-ul.show {
-color: yellow;
-}
-
 #nav-ul.show li{
     margin: 1.5rem;
 }
