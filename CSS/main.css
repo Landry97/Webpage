@@ -221,6 +221,9 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
+#body.show{
+	overflow: hidden;
+}
 #menu.show {
     display: none; 
 	}
@@ -241,7 +244,6 @@ address div p a{
     align-items: center;
     z-index: 101;
     background-color: red;
-    overflow: hidden;
 }
 #nav-ul.show{
     transform: translateY(6rem);
