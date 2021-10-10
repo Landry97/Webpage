@@ -264,7 +264,6 @@ address div p a{
 } /*Hover Work and About*/
 #address.show{
     transform: translateY(6.5rem);
-    font-size: 0.6rem;
     color: black;
     background-color: red;
     display: flex;
