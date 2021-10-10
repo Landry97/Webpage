@@ -252,6 +252,10 @@ address div p a{
     width: 100%;
     height: auto;
 }
+#nav-ul.show .activePage{
+color:yellow;
+}
+
 #nav-ul.show li{
     margin: 1.5rem;
 }
