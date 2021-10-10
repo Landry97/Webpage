@@ -221,8 +221,8 @@ address div p a{
     text-align: center;
     align-items: center;
 }
-/*.SHOW_MENU_START______________________________________________________________________________*/
-#bodyid.show{
+/*.SHOW_MENU_START______________________________________________________________________________*/body
+.bodyclass show{
 	overflow: hidden;
 	height: 100%;
 }
