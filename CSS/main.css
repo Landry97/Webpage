@@ -148,8 +148,6 @@ nav .menu{
 }
 .menu-toggle {
     text-decoration: none;
-    position: relative;
-    left: 0%;
     margin-left: 1rem;
 	}
 .menu-toggle {
@@ -166,6 +164,7 @@ nav .menu{
 }
 .menu-toggle2{
     display: none;
+    height: 100%;
     position: absolute;
     text-indent: -100rem;
     left: 2.5%;
@@ -239,6 +238,7 @@ address div p a{
     background-color: transparent;
     height: 100%;
     width: 5%;
+	top
 } 
 
 #menu.show {
