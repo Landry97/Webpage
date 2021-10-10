@@ -11,6 +11,8 @@ menu.addEventListener('click', () => {
 }); 
 
 
+ menu.addEventListener('click', () => {
+        document.body.style.overflow = 'hidden'; 
 
 menu.addEventListener('click', clickHandler);
 
@@ -19,7 +21,7 @@ function clickHandler(event){
   if(event.target.dataset.clickcount==2){
     event.target.removeEventListener("click");
     menu.addEventListener('click', () => {
-        document.body.style.overflow = 'hidden'; 
+        document.body.style.overflow = 'visible'; 
 }); 
   }
 }
