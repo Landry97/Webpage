@@ -222,7 +222,7 @@ address div p a{
     align-items: center;
 }
 /*.SHOW_MENU_START______________________________________________________________________________*/
-#body.show{
+#bodyid.show{
 	overflow: hidden;
 	height: 100%;
 }
