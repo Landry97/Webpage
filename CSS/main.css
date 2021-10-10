@@ -224,7 +224,7 @@ address div p a{
 	}
 #menu-toggle.show{
 	background: url("black-cross.png") no-repeat;
-    background-size: 25%;
+    background-size: 50%;
     background-color: transparent;
     height: 100%;
     width: 5%;
