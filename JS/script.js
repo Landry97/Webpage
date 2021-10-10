@@ -12,19 +12,6 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
 }); 
 
-window.onload = function() {
-    var menuu = document.getElementsByTagName('menu-toggle');
-    for (var x = 0; x < menuu.length; x++) {
-        menuu[x].addEventListener('click', ausgabe, false);
-    }
-    function ausgabe() {
-        document.body.style.overflow = 'hidden'; 
-    }
-}
-
-
-
-
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
 mybutton = document.getElementById("myBtn");
