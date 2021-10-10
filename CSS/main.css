@@ -264,7 +264,7 @@ address div p a{
 } /*Hover Work and About*/
 #address.show{
     transform: translateY(8rem);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: black;
     background-color: red;
     display: flex;
@@ -275,9 +275,9 @@ address div p a{
     align-content: center;
     text-decoration: none;
     height: auto;
-	width: 65%;
+	width: 55%;
 	margin-top: auto;
-	margin-bottom: 25%;
+	margin-bottom: 60%;
 }
 #address.show li a{
     font-size: 0.8rem;
