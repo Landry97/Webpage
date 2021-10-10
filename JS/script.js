@@ -19,15 +19,15 @@ menu.addEventListener('click', () => {
         document.body.style.overflow = 'visible'; 
 }); 
 
-menu.addEventListener('click', clickHandler);
+menu.addEventListener('click', first);
 
-function clickHandler(event){
-  event.target.dataset.clickcount++;
-  if(event.target.dataset.clickcount==2){
-    menu.addEventListener('click', () => {
-        document.body.style.overflow = 'visible'; 
-}); 
-  }
+function first(e){
+    e.stopImmediatePropagation();
+    this.removeEventListener("click", first);
+    document.onclick = second;
+}
+function second(){
+    alert("I'm not suppose to appear after the first click, only the second.");
 }
 
 
