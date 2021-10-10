@@ -23,8 +23,15 @@ footer{
       flex-wrap: wrap;
       margin-bottom: 2.5%;
       margin-top: 1.5rem;
-      cursor: pointer;
+  }
+  .col {
+   flex-wrap: wrap;
+   margin: 1.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    width: 100%;
+   cursor: pointer;
   }
   #myBtn {
     display: block;
@@ -40,13 +47,6 @@ footer{
     .row {
         flex-direction: column;
     }
-  }
-  .col {
-    flex-wrap: wrap;
-    margin: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .modal {
     display: none;
