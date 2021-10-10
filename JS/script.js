@@ -21,7 +21,7 @@ menu.onclick = function () {
     menu.style.display = "flex";
   }
 };
-document.getElementsByClassName("activePage").onmouseover = function() 
+document.getElementsByClassName("activePage").hover = function() 
 {
     this.style.color = "white";
 }
