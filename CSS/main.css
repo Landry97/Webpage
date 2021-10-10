@@ -242,7 +242,7 @@ address div p a{
 #menu-toggle2.show{
     display: flex;
     height: 8px;
-    left: 2.5%;
+    left: 5%;
     width: 20px;
     border-radius: 0;
 } 
