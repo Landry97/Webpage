@@ -260,9 +260,12 @@ address div p a{
 	color: yellow;
 	z-index:101;
 	}
+#nav-ul.show li.activePage a:hover{
+	color: white;
+	z-index:101;
+	}
 #nav-ul.show li.menu-item a{
 	color: black;
-	z-index:101;
 	}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{
 	color: white;
