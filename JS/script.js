@@ -11,7 +11,7 @@ menu.addEventListener('click', () => {
 }); 
 
 menu.addEventListener('click', (twice) => {
-   document.body.style.overflow = '';
+   document.body.style.overflow = 'visible';
 }); 
 
 
