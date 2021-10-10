@@ -262,7 +262,7 @@ address div p a{
 	}
 #nav-ul.show li.activePage a:hover{
 	color: white;
-	z-index:101;
+	z-index:102;
 	}
 #nav-ul.show li.menu-item a{
 	color: black;
