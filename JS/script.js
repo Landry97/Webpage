@@ -4,28 +4,35 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 
-menu.addEventListener('click', () => {
+menu.addEventListener('click', once () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
       address.classList.toggle('show');
+}); 
+
+menu.addEventListener('click', twice () => {
+   document.body.style.overflow = '';
 }); 
 
 
 menu.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
 }); 
-menu.onclick = function () {
-  if (menu.style.display !== "flex") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "flex";
-  }
-};
-document.getElementsByClassName("activePage") = function() 
-{
-    this.style.color = "white";
-}
+//menu.onclick = function () {
+  //if (menu.style.display !== "flex") {
+    //menu.style.display = "none";
+  //} else {
+    //menu.style.display = "flex";
+  //}
+//};
 
+
+  let button = document.querySelector("button");
+  function once() {
+    console.log("Done.");
+    button.removeEventListener("click", once);
+  }
+  button.addEventListener("click", once);
 
 //function disableScrolling(){
 //    var x=window.scrollX;
