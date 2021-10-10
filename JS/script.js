@@ -11,7 +11,9 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
       body.classList.toggle('show');
       menu.classList.toggle('show');
+      document.createElement("menu-toggle2");
 }); 
+
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
