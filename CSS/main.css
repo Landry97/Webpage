@@ -242,10 +242,8 @@ address div p a{
 
 #menu.show {
     display: none;
-    overflow: hidden;
 }
 #navMenu.show {
-overflow: hidden;
     left: 0;
     right: 0;
     top: 0; 
@@ -277,7 +275,7 @@ overflow: hidden;
     margin: 1.5rem;
 }
 #nav-ul.show li.activePage a{
-	color: yellow;
+	color: black;
 	z-index:101;
 	}
 #nav-ul.show li.activePage a:hover{
