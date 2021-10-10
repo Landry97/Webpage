@@ -3,6 +3,7 @@ const menu = document.getElementById('menu-toggle');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
+const aktiv = document.getElementByClassName('activePage');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -19,6 +20,13 @@ menu.onclick = function () {
     menu.style.display = "none";
   } else {
     menu.style.display = "flex";
+  }
+};
+menu.onclick = function () {
+  if (aktiv.style.color !== "red") {
+    menu.style.display = "black";
+  } else {
+    menu.style.display = "red";
   }
 };
 
