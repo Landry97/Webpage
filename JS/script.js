@@ -10,9 +10,6 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
 }); 
 
-menu.addEventListener('click', () => {
-        document.body.style.overflow = 'hidden'; 
-}); 
 
 
 menu.addEventListener('click', clickHandler);
@@ -21,9 +18,9 @@ function clickHandler(event){
   event.target.dataset.clickcount++;
   if(event.target.dataset.clickcount==2){
     event.target.removeEventListener("click");
-    document.addEventListener('click', function(){
-      alert("I'm not suppose to appear after the first click, only the second.");
-    });
+    menu.addEventListener('click', () => {
+        document.body.style.overflow = 'hidden'; 
+}); 
   }
 }
 
