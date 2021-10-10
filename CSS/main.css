@@ -167,7 +167,7 @@ nav .menu{
     height: 100%;
     position: absolute;
     text-indent: -100rem;
-    left: 2%;
+    left: 1%;
     cursor: pointer;
     z-index: 1000;
     background-color: black;
@@ -234,11 +234,10 @@ address div p a{
 	}
 #menu-toggle.show{
 	background: url("black-cross.png") no-repeat;
-    background-size: 1rem 1rem;
+    background-size: 1.1rem 1.1rem;
     background-color: transparent;
     height: 100%;
     width: 5%;
-	top
 } 
 
 #menu.show {
