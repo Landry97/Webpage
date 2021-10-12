@@ -72,6 +72,6 @@ var boxid = "Lightbox";
  }
 
 window.onkeyup = function changeSlide(n) {
-  if (event.keyCode == 37) showSlide(slideIndex += n);
+  if (event.keyCode == 37) showSlide(slideIndex +1= n);
 };
 
