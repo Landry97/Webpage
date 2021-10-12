@@ -2,10 +2,12 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'flex';
+  document.getElementById('menu-toggle').style.display = 'none';
 };
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none';
+  document.getElementById('menu-toggle').style.display = 'flex';
 };
 
 function changeSlide(n) {
