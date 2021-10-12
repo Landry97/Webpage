@@ -65,8 +65,8 @@ function showOverlay() {
 }
 
 dhtmlxEvent(document.body, "keyup", function(e){
-   var lightbox = scheduler.getState().lightbox_id;
-   if(lightbox){
+   var Lightbox = scheduler.getState().lightbox_id;
+   if(Lightbox){
       var keyCode = e.keyCode || e.which;
          
       if(keyCode == 27){
