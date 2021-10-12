@@ -70,13 +70,15 @@ var boxid = "Lightbox";
     document.getElementById(boxid).style.display="none";
 }
 };
+
 window.onkeyup = function (event) {
   if (event.keyCode == 37) {
     changeSlide(-1);
 }
 };
+
 window.onkeyup = function (event) {
-  if (event.keyCode == 37) {
+  if (event.keyCode == 39) {
     changeSlide(1);
 }
 };
