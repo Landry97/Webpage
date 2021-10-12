@@ -3,13 +3,11 @@ let slideIndex = 1;
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('menu-toggle').style.display = 'none';
-  document.getElementById('galleryinfo').style.display = 'flex';
 };
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'flex';
-  document.getElementById('galleryinfo').style.display = 'none';
 };
 
 function changeSlide(n) {
