@@ -73,7 +73,12 @@ var boxid = "Lightbox";
 
 var boxid = "Lightbox";
  window.onkeyup = function (event) {
-  if (event.keyCode == 37 (slideIndex += n);
+  if (event.keyCode == 37){ (slideIndex += n);
+};
+
+var boxid = "Lightbox";
+ window.onkeyup = function (event) {
+  if (event.keyCode == 39){ (slideIndex -= n);
 };
 
 
