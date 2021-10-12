@@ -62,10 +62,10 @@ function showOverlay() {
     body.scrollTop(overlaySavedScrollTop);
     body.scrollLeft(overlaySavedScrollLeft);
   });
-}
+};
 
-window.onkeypress = function (event2) {
-  if (event2.keyCode == 37) {
+window.onkeypress = function (event) {
+  if (event.keyCode == 37) {
     changeSlide(-1);
 }
 };
