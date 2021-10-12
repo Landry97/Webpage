@@ -64,17 +64,12 @@ function showOverlay() {
   });
 }
 
-dhtmlxEvent(document.body, "keyup", function(e){
-   var Lightbox = scheduler.getState().lightbox_id;
-   if(Lightbox){
-      var keyCode = e.keyCode || e.which;
-         
-      if(keyCode == 27){
-         var box = scheduler.getLightbox();
-         scheduler.endLightbox(false, box);
-      }
-   }
-});
+var boxid = "Lightbox";
+ window.onkeyup = function (event) {
+  if (event.keyCode == 27) {
+    document.getElementById(boxid).style.display="none";
+  }
+ }
 
 
 
