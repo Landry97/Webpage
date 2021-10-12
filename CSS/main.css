@@ -587,8 +587,7 @@ figure.project1:before{
     background: white;
     z-index: 2;
     transition: 0.3s;
-    opacity: 0;
-    
+    opacity: 0; 
 }
 figcaption.project-info1 {
     position: absolute;
@@ -598,7 +597,7 @@ figcaption.project-info1 {
     margin-top: 1.5rem;
     width: 100%;
     height: 100%;
-
+}
 .project1 .project-info1{
     position: absolute;
     z-index: 3;
