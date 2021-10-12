@@ -63,3 +63,19 @@ function showOverlay() {
     body.scrollLeft(overlaySavedScrollLeft);
   });
 }
+
+dhtmlxEvent(document.body, "keyup", function(e){
+   var lightbox = scheduler.getState().lightbox_id;
+   if(lightbox){
+      var keyCode = e.keyCode || e.which;
+         
+      if(keyCode == 27){
+         var box = scheduler.getLightbox();
+         scheduler.endLightbox(false, box);
+      }
+   }
+});
+
+
+
+
