@@ -66,7 +66,7 @@ function showOverlay() {
 
 var boxid = "Lightbox";
  window.onkeyup = function (event) {
-  if (event.keyCode == 27) {
+  if (event.keyCode == 37) {
     document.getElementById(boxid).style.display="none";
   }
  }
