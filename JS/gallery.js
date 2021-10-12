@@ -66,8 +66,12 @@ function showOverlay() {
 
 var boxid = "Lightbox";
  window.onkeyup = function (event) {
-  if (event.keyCode == 37) {
+  if (event.keyCode == 27) {
     document.getElementById(boxid).style.display="none";
   }
  }
+
+function changeSlide(n) {
+  if (event.keyCode == 37) showSlide(slideIndex += n);
+};
 
