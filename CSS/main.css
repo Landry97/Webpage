@@ -590,15 +590,14 @@ figure.project1:before{
     opacity: 0;
     
 }
-figcaption.project-info1{
+figcaption.project-info1 {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 5%;
+    padding-left: 5%;
     margin-top: 1.5rem;
     width: 100%;
     height: 100%;
-}
 
 .project1 .project-info1{
     position: absolute;
