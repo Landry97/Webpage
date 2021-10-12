@@ -64,7 +64,7 @@ function showOverlay() {
   });
 }
 
-window.onkeyup = function (event2) {
+window.onkeypress = function (event2) {
   if (event2.keyCode == 37) {
     changeSlide(-1);
 }
