@@ -64,21 +64,21 @@ function showOverlay() {
   });
 }
 
-var boxid = "Lightbox";
- window.onkeyup = function (event1) {
-  if (event1.keyCode == 27) {
-    document.getElementById(boxid).style.display="none";
-}
-};
-
 window.onkeyup = function (event2) {
   if (event2.keyCode == 37) {
     changeSlide(-1);
 }
 };
 
-window.onkeyup = function (event3) {
+window.onkeydown = function (event3) {
   if (event3.keyCode == 39) {
     changeSlide(1);
+}
+};
+
+var boxid = "Lightbox";
+ window.onkeyup = function (event1) {
+  if (event1.keyCode == 27) {
+    document.getElementById(boxid).style.display="none";
 }
 };
