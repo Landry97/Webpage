@@ -7,7 +7,7 @@ function openLightbox() {
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none';
-var mq = window.matchMedia( "(max-width: 570px)" );
+var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
 }
