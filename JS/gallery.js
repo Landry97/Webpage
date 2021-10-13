@@ -79,10 +79,6 @@ if (event.keyCode == 37) {
     changeSlide(-1);}
 if (event.keyCode == 27) {
     document.getElementById(boxid).style.display="none";}
-if (event.keyCode == 38) {
-    document.getElementById(boxid).style.display="none";}
-if (event.keyCode == 40) {
-    document.getElementById(boxid).style.display="flex";}
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
