@@ -19,6 +19,13 @@ else {
 }
 };
 
+function clearpoint() {
+var mq = window.matchMedia( "(min-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
+};
+
 function changeSlide(n) {
   showSlide(slideIndex += n);
 };
