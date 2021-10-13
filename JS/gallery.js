@@ -61,21 +61,21 @@ function showOverlay() {
     // Scroll back to saved position
     body.scrollTop(overlaySavedScrollTop);
     body.scrollLeft(overlaySavedScrollLeft);
-  });
+  })
 }
+
 window.onkeydown = function (event) 
 if (event.keyCode == 39) {
-    changeSlide(1);
-}
+    changeSlide(1);}
 };
+
 window.onkeydown = function (event) 
 if (event.keyCode == 37) {
     changeSlide(-1);}
 };
 
 var boxid = "Lightbox";
- window.onkeyup = function (event1) {
-  if (event1.keyCode == 27) {
-    document.getElementById(boxid).style.display="none";
-}
+window.onkeyup = function (event) {
+  if (event.keyCode == 27) {
+    document.getElementById(boxid).style.display="none";}
 };
