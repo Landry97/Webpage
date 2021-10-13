@@ -80,7 +80,7 @@ window.onkeydown = function (event){
 if (event.keyCode == 37) {
     changeSlide(-1);}
 if (event.keyCode == 27) {
-    document.getElementById(boxid).style.display="none";}
+    closeLightbox;}
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
