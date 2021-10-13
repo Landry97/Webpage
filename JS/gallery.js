@@ -11,7 +11,7 @@ if (mq.matches) {
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none';
-  document.body.style.overflow = 'visible';
+  document.body.style.overflow = 'scroll';
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
