@@ -2,7 +2,10 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'flex';
+var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
+}
 };
 
 function closeLightbox() {
@@ -15,14 +18,6 @@ else {
   document.getElementById('menu-toggle').style.display = 'none';
 }
 };
-
-var mq = window.matchMedia( "(max-width: 950px)" );
-if (mq.matches) {
-  document.getElementById('menu-toggle').style.display = 'flex';
-}
-else {
-  document.getElementById('menu-toggle').style.display = 'none';
-}
 
 function changeSlide(n) {
   showSlide(slideIndex += n);
