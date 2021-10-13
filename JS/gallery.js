@@ -16,6 +16,14 @@ else {
 }
 };
 
+var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'flex';
+}
+else {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
+
 function changeSlide(n) {
   showSlide(slideIndex += n);
 };
