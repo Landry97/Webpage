@@ -65,20 +65,12 @@ function showOverlay() {
 };
 
 var boxid = "Lightbox";
-window.onkeyup = function (event) {
-  if (event.keyCode == 27) {
-    document.getElementById(boxid).style.display="none";}
-};
-
-window.onkeyup = function (event){
-if (event.keyCode == 39) {
-    changeSlide(1);}
-};
-
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide(-1);}
 if (event.keyCode == 27) {
     document.getElementById(boxid).style.display="none";}
+if (event.keyCode == 39) {
+    changeSlide(1);}
 };
 
