@@ -20,7 +20,7 @@ else {
 };
 
 function clearpoint() {
-var mq = window.matchMedia( "(min-width: 950px)" );
+var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
 }
