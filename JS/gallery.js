@@ -64,15 +64,15 @@ function showOverlay() {
   });
 };
 
-window.onkeypress = function (event) {
-  if (event.keyCode == 37) {
-    changeSlide(-1);
-}
-};
 
 window.onkeydown = function (event3) {
   if (event3.keyCode == 39) {
     changeSlide(1);
+}
+};
+window.onkeydown = function (event2) {
+  if (event2.keyCode == 37) {
+    changeSlide(-1);
 }
 };
 
