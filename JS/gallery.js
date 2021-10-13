@@ -79,8 +79,19 @@ var boxid = "Lightbox";
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide(-1);}
+  
 if (event.keyCode == 27) {
-    function closeLightbox;}
+document.getElementById('Lightbox').style.display = 'none';
+document.body.style.overflow = 'scroll';
+var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'flex';
+}
+else {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
+};}
+
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
