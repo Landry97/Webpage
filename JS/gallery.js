@@ -62,13 +62,12 @@ function showOverlay() {
     body.scrollTop(overlaySavedScrollTop);
     body.scrollLeft(overlaySavedScrollLeft);
   });
-};
-
+}
 window.onkeydown = function (event) 
 if (event.keyCode == 39) {
-    changeSlide(1);}
+    changeSlide(1);
+}
 };
-
 window.onkeydown = function (event) 
 if (event.keyCode == 37) {
     changeSlide(-1);}
