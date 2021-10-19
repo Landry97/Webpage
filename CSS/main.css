@@ -48,6 +48,11 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: red;
 }
+
+scrollbar-width: 0.5rem;
+scrollbar-height: 20%;
+scrollbar-background: black;
+
 /* HEADER */
 /* WICHTIG: Z-INDEX immer 101 */
 
