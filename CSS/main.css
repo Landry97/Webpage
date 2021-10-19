@@ -27,7 +27,7 @@ body{
 /*Scrollbar*/
 /* width */
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.65rem;
   max-height: 50%;
   height: 20%;
 }
@@ -46,7 +46,7 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: red;
+  background: rgb(219, 10, 10);
 }
 
 /* HEADER */
