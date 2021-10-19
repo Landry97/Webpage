@@ -29,7 +29,7 @@ body{
 ::-webkit-scrollbar {
   width: 0.5rem;
   max-height: 50%;
-  height: 20%;}
+  height: 20%;
 }
 
 /* Track */
@@ -48,10 +48,6 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: red;
 }
-
-scrollbar-width: 0.5rem;
-scrollbar-height: 20%;
-scrollbar-background: black;
 
 /* HEADER */
 /* WICHTIG: Z-INDEX immer 101 */
