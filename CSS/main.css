@@ -25,10 +25,10 @@ body{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 /*Scrollbar*/
-/* width */
+/* widthandheigth */
 ::-webkit-scrollbar {
   width: 0.65rem;
-  max-height: 50%;
+  max-height: 20%;
   height: 20%;
 }
 
