@@ -1,17 +1,7 @@
-function openshow() {
-  document.getElementById('menu-toggle show');
-  document.body.style.overflow = 'hidden';
-};
-function closeshow() {
-  document.getElementById('menu-toggle');
-  document.body.style.overflow = 'scroll';
-};
-
 let slideIndex = 1;
 
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'flex';
-  document.body.style.overflow = 'hidden';
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
@@ -20,7 +10,6 @@ if (mq.matches) {
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none';
-  document.body.style.overflow = 'scroll';
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
