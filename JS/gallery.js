@@ -89,7 +89,7 @@ document.getElementById('Lightbox').style.display = 'none';
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
   document.getElementById('menu-toggle').style.display = 'flex';
-  document.getElementsByTagName("Footer")[0].style.display = "flex";
+  document.getElementsByTagName("Footer")[0].style.display = "flex";}
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
