@@ -1,6 +1,5 @@
-#Lightbox.show{
- overflow: hidden;
-}
+body#bodyid.bodyclass.show,#Lightbox.show{
+overflow: hidden;} 
 
 html { overflow: hidden; }
 body {
