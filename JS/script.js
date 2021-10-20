@@ -16,6 +16,7 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
+const Lightbox = document.getElementById('Lightbox');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -23,6 +24,7 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
       body.classList.toggle('show');
       menu.classList.toggle('show');
+      Lightbox.classList.toggle('show');
 }); 
 
 
