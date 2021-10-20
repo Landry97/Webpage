@@ -20,14 +20,6 @@ else {
   document.getElementById('menu-toggle').style.display = 'none';
 }
 };
-
-function openmenu.show(){
-  document.body.style.overflow = 'hidden';
-};
-function closemenu.show(){
-  document.body.style.overflow = 'scroll';
-};
-
 function changeSlide(n) {
   showSlide(slideIndex += n);
 };
