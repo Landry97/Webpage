@@ -2,6 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'flex';
+  document.getElementById('Lightbox').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementsByTagName("header")[0].style.display = "none";
 var mq = window.matchMedia( "(max-width: 950px)" );
@@ -12,6 +13,7 @@ if (mq.matches) {
 
 function closeLightbox() {
   document.getElementById('Lightbox').style.display = 'none'; 
+  document.getElementById('Lightbox').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
   document.getElementsByTagName("header")[0].style.display = "flex";
 var mq = window.matchMedia( "(max-width: 950px)" );
