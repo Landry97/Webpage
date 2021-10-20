@@ -449,7 +449,7 @@ footer p a {
     font-size: 1rem; /* Increase font size */
   }
  
-  #myBtn:hover {
+  #myBtn:hover, figure a {
     color: rgb(219, 10, 10); /*  text on hover */
   }
 /* END FOOTER */
