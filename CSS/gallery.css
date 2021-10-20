@@ -1,3 +1,7 @@
+#Lightbox.show{
+ overflow: hidden;
+}
+
 html { overflow: hidden; }
 body {
  height: 100%;
