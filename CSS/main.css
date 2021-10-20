@@ -1,11 +1,21 @@
+figure, figure img, picture{ 
+display: flex;}
+
+.scroll {
+    overflow-y: scroll;
+}
+
+.scroll {
+    scrollbar-color: red yellow;
+    scrollbar-width: 5px;
+}
+
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-figure, figure img, picture{ 
-display: flex;
-} 
 html{
     min-height: 100vh;
     height: 100%;
