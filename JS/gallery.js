@@ -1,12 +1,10 @@
 function openmenu-toggle show() {
   document.getElementById('menu-toggle show');
   document.body.style.overflow = 'hidden';
-}
 };
 function closemenu-toggle show() {
   document.getElementById('menu-toggle show');
   document.body.style.overflow = 'scroll';
-}
 };
 
 
