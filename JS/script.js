@@ -24,7 +24,16 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
 }); 
-
+function openmenu.show() {
+  document.getElementById('menu-toggle.show');
+  document.body.style.overflow = 'hidden';
+}
+};
+function closemenu.show() {
+  document.getElementById('menu-toggle.show');
+  document.body.style.overflow = 'scroll';
+}
+};
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
