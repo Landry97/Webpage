@@ -1,13 +1,11 @@
-function openmenu-toggle show() {
+function openshow() {
   document.getElementById('menu-toggle show');
   document.body.style.overflow = 'hidden';
 };
-function closemenu-toggle show() {
-  document.getElementById('menu-toggle show');
+function closeshow() {
+  document.getElementById('menu-toggle');
   document.body.style.overflow = 'scroll';
 };
-
-
 
 let slideIndex = 1;
 
