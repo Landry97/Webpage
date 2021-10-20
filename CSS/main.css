@@ -25,6 +25,10 @@ body{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 /*Scrollbar*/
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: #0A4C95 #C2D2E4;
+} /*firefox*/
 /* widthandheigth */
 ::-webkit-scrollbar {
   width: 0.65rem;
