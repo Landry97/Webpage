@@ -1,16 +1,4 @@
-figure, figure img, picture{ 
-display: flex;}
-
-.scroll {
-    overflow-y: scroll;
-}
-
-.scroll {
-    scrollbar-color: black white;
-    scrollbar-width: 0.65rem;
-}
-
-
+figure, figure img, picture{display: flex;}
 * {
     margin: 0%;
     padding: 0%;
