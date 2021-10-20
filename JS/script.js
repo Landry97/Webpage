@@ -1,14 +1,4 @@
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.getElementById('menu-toggle').style.display = 'flex';
-  } else {
-    document.getElementById('menu-toggle').style.display = 'none';
-  }
-}
 
-var x = window.matchMedia("(max-width: 950px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes 
 
 // MENU____ CLICK -> SHOW________________________________________________________________
 const menu = document.getElementById('menu-toggle');
