@@ -1,12 +1,6 @@
 
-body {
- align-items: center;
- justify-content: center;
- justify-items: center;
- min-height: 100vh;
-}
   *, *:before, *:after {
-    box-sizing: content-box;
+    box-sizing: border-box;
   }
 .header{
     margin-top: 1.5em;
