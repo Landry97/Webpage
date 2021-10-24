@@ -393,6 +393,7 @@ div.min-width{
 
 /* FOOTER */
 footer{
+    margin-top: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
     color: white;
