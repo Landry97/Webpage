@@ -28,7 +28,6 @@ menu.addEventListener('click', () => {
 
 // MENU____ CLICK -> SHOW_2_______________________________________________________________
 const rowid = document.getElementById('rowid');
-const body = document.getElementById('bodyid');
 
 rowid.addEventListener('click', () => {
       body.classList.toggle('show');
