@@ -1,9 +1,8 @@
-html { overflow: hidden; 
-margin-bottom:1rem;}
+html { overflow: hidden;}
 body {
- height: 100%;
+ height: 110%;
  overflow-y: scroll; 
-align-items: center;
+ align-items: center;
 }
   *, *:before, *:after {
     box-sizing: border-box;
