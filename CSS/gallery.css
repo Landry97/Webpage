@@ -1,4 +1,3 @@
-
   *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -49,16 +48,18 @@
         flex-direction: column;
     }
   }
-
-  .modal {
+.modal {
     display: none;
-    position: absolute;
+    position: fixed;
     justify-content: center;
     align-items: center;
     z-index: 101;
+    padding-top: 5rem;
     width: 100%;
     height: 100%;
+    overflow: auto;
     background-color: white;
+    margin-top: 0;
   }
 
   .modal-content {
@@ -68,10 +69,21 @@
     align-items: center;
     padding: 0 0 0 0;
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     height: 100%;
-    max-height: 100%;
+    max-height: 95%;
   }
+
+  div.direction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+
+  
   .slide {
     display: none;
     justify-content: center;
@@ -81,29 +93,33 @@
     height: 100%;
     max-height: 95%;
   }
+
   .image-slide {
       display: flex;
       justify-content: center;
-      align-items: center;     
-    width: 100%;
-    max-width: 90%;
-    height: 100%;
-    max-height: 95%;
+      align-items: center;
+      width: 100%;
+      max-width: 90%;
+      height: 100%;
+      max-height: 95%;
       -o-object-fit: contain;
       object-fit: contain;
+      
   }
+  
   .modal-preview {
       width: auto;
   }
+  
+
 
   div.dots {
     position: absolute;
     bottom: 3%;
     display: flex;
     justify-content: center;
-    height: .75rem;
-   padding: 0;
-   margin: 0;
+    height: 12px;
+    position: absolute;
     text-indent: -100rem;
     width:150px;
     cursor: pointer;
@@ -120,7 +136,6 @@
     width: auto;
     height: 100%;
   }
-
   img.preview, img.modal-preview {
     opacity: 1;
   }
