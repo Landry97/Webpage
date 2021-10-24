@@ -1,8 +1,7 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  document.body.style.height = '85vh';
-  document.getElementsByTagName("html")[0].style.height = '85vh';
+  document.body.style.height = '100vh';
   document.getElementById('Lightbox').style.overflow = 'hidden';
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
@@ -17,8 +16,7 @@ if (mq.matches) {
 };
 
 function closeLightbox() {
-  document.body.style.height = 'auto';
-  document.getElementsByTagName("html")[0].style.height = 'auto';
+  document.body.style.height = 'auto'
   document.getElementById('Lightbox').style.overflow = 'auto';
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'flex';
