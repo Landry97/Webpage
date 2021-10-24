@@ -3,7 +3,7 @@ let slideIndex = 1;
 function openLightbox() {
   document.body.style.height = '85vh';
   document.getElementsByTagName("html")[0].style.height = '85vh';
-  document.getElementById('Lightbox').style.height = '85vh';
+  document.getElementById('Lightbox').style.overflow = 'hidden';
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
@@ -19,7 +19,7 @@ if (mq.matches) {
 function closeLightbox() {
   document.body.style.height = 'auto';
   document.getElementsByTagName("html")[0].style.height = 'auto';
-  document.getElementById('Lightbox').style.display = 'none'; 
+  document.getElementById('Lightbox').style.overflow = 'auto'; 
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
   document.getElementById('menu-toggle').style.display = 'flex';
