@@ -4,6 +4,8 @@ body {
  height: 100%;
  overflow-y: scroll; 
  align-items: center;
+ 
+background-color: blue;
 }
   *, *:before, *:after {
     box-sizing: border-box;
