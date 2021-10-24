@@ -8,7 +8,7 @@ html{
     width: 100%;
 } 
 body#bodyid.bodyclass.show{
-overflow-y: hidden;} 
+overflow: hidden;} 
 body{
     width: 100%;
     align-items: center;
