@@ -392,12 +392,6 @@ div.min-width{
 }
 
 /* FOOTER */
-.footer-wrapper{
-	height: auto;
-	min-height: 20vh;
-	display: flex;
-	align-content: flex-end;
-} 
 footer{
     margin-top: auto;
     margin-bottom: 3rem;
