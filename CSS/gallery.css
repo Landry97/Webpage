@@ -1,6 +1,8 @@
 
 body {
  align-items: center;
+ justify-content: center;
+ justify-items: center;
 }
   *, *:before, *:after {
     box-sizing: content-box;
