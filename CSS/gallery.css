@@ -1,5 +1,5 @@
 html { overflow: hidden;
-background-color: blue;}
+ display:flex;}
 body {
  height: 100%;
  overflow: scroll; 
