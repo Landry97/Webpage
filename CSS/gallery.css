@@ -103,10 +103,9 @@
     bottom: 3%;
     display: flex;
     justify-content: center;
-    height: .5rem;
+    height: 1rem;
    padding: 0;
    margin: 0;
-    position: absolute;
     text-indent: -100rem;
     width:150px;
     cursor: pointer;
