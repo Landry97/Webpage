@@ -6,7 +6,7 @@ body {
  align-items: center;;
 }
   *, *:before, *:after {
-    box-sizing: border-box;
+    box-sizing: content-box;
   }
 .header{
     margin-top: 1.5em;
