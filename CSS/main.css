@@ -400,6 +400,7 @@ div.min-width{
 } 
 footer{
     margin-top: auto;
+    margin-bottom: 2rem;
     color: white;
     display: flex;
     flex-direction: row;
