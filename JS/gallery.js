@@ -1,4 +1,4 @@
-llet slideIndex = 1;
+let slideIndex = 1;
 
 function openLightbox() {
   document.body.style.height = '100vh';
