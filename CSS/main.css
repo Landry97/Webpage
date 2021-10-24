@@ -6,7 +6,6 @@ figure, figure img, picture{display: flex;}
 }
 html{
     min-height: 100vh;
-    height: 100%;
     width: 100%;
 } 
 body#bodyid.bodyclass.show{
