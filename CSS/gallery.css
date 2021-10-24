@@ -2,10 +2,8 @@ html { overflow: hidden;
 background-color: blue;}
 body {
  height: 100%;
- overflow-y: scroll; 
- align-items: center;
- 
-background-color: blue;
+ overflow: scroll; 
+ align-items: center;;
 }
   *, *:before, *:after {
     box-sizing: border-box;
