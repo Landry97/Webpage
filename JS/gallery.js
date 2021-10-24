@@ -2,8 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.body.style.height = '100vh';
-  document.body.style.overflow-y = 'hidden';
-  document.getElementsByTagName("html")[0].style.height = '100vh';
+  document.getElementsByTagName("html")[1].style.height = '100vh';
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
@@ -18,8 +17,7 @@ if (mq.matches) {
 
 function closeLightbox() {
   document.body.style.height = 'auto';
-  document.body.style.overflow-y = 'auto';
-  document.getElementsByTagName("html")[0].style.height = 'auto';
+  document.getElementsByTagName("html")[1].style.height = 'auto';
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
