@@ -114,10 +114,10 @@ height: 100%;
   div.dot{
     position: absolute;
     width: 100%;
-    height:10%;
+    height:100%;
   }
   img.dot{
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
     width: auto;
