@@ -1,8 +1,8 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  document.body.style.height = '80vh';
-  document.getElementsByTagName("html")[0].style.height = '80vh';
+  document.body.style.height = '100vh';
+  document.getElementsByTagName("html")[0].style.height = '100vh';
   document.getElementById('Lightbox').style.height = '100vh';
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
