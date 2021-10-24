@@ -10,7 +10,7 @@ html{
     width: 100%;
 } 
 body#bodyid.bodyclass.show{
-overflow: hidden;} 
+overflow-y: hidden;} 
 body{
     width: 100%;
     align-items: center;
