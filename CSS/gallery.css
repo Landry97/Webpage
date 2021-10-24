@@ -1,4 +1,7 @@
 
+body {
+ align-items: center;
+}
   *, *:before, *:after {
     box-sizing: content-box;
   }
