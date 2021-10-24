@@ -393,14 +393,13 @@ div.min-width{
 
 /* FOOTER */
 footer{
-    margin-top: auto;
+    margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-top: auto;
     color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     letter-spacing: .1rem;
     font-size: .75em;
 }
