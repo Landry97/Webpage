@@ -10,6 +10,7 @@ function openLightbox() {
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
+  document.getElementsByTagName("header")[0].style.position = "fixed";
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
@@ -25,6 +26,7 @@ function closeLightbox() {
   document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementById('madebyid').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
+  document.getElementsByTagName("header")[0].style.position = "absolute";
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
