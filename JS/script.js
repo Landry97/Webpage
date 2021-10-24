@@ -26,13 +26,6 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
 }); 
 
-// MENU____ CLICK -> SHOW_2_______________________________________________________________
-const rowid = document.getElementById('rowid');
-
-rowid.addEventListener('click', () => {
-      body.classList.toggle('show');
-}); 
-
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
