@@ -1,9 +1,13 @@
   *, *:before, *:after {
     box-sizing: border-box;
   }
+
+body{
+    height: auto;
+}
 .header{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
   .row {
       display: flex;
