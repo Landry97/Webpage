@@ -400,13 +400,13 @@ div.min-width{
 } 
 footer{
     margin-top: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     letter-spacing: .1rem;
     font-size: .75em;
 }
