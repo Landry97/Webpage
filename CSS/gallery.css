@@ -3,7 +3,7 @@
   }
 
 body{
-    height: auto;
+    max-height: auto;
 }
 .header{
     margin-top: 1.5rem;
