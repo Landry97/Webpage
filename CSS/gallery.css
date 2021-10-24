@@ -1,9 +1,4 @@
-html { overflow-y: hidden;}
-body {
- height: 100%;
- overflow-y: scroll; 
- align-items: center;
-}
+
   *, *:before, *:after {
     box-sizing: content-box;
   }
