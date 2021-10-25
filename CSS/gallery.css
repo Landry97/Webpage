@@ -55,7 +55,7 @@ body{
 
 .modal {
     display: none;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     z-index: 101;
