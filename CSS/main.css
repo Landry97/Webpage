@@ -39,7 +39,7 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: transparent;
+  box-shadow: white;
   border-radius: 0;
 }
 
