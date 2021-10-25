@@ -2,7 +2,6 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.body.style.overflow = 'hidden';
-  document.getElementsByTagName("html")[0].style.height = "auto";
   document.getElementById('Lightbox').style.overflow = 'hidden';
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
