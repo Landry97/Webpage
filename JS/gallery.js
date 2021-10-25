@@ -15,7 +15,7 @@ if (mq.matches) {
 };
 
 function closeLightbox() {
-  menu.classList.toggle(' ');
+  menu.classList.toggle('');
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
