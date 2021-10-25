@@ -4,6 +4,7 @@
 
 body{
     max-height: auto;
+	align-items:center;
 }
 .header{
     margin-top: 1.5rem;
