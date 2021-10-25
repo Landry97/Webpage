@@ -1,7 +1,6 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  document.getElementById('bodyid').classList.toggle('show');
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
