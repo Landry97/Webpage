@@ -61,7 +61,7 @@ body{
     z-index: 101;
     width: 100%;
     background-color: white;  
-    height: 100vh;
+    height: 100%;
   }
 
   .modal-content {
