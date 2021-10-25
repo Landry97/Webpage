@@ -1,9 +1,5 @@
-img, figure img, figure, picture, img.hover-shadow.preview, picture, figure p,div {display: flex;}
+img, figure img, figure, picture, img.hover-shadow.preview, picture, figure p,div {display: flex; object-fit: contain;}
 
-figure img, img.hover-shadow.preview {
-    width: 100%;
-    height: 100%; 
-}
 
 * {
     margin: 0%;
