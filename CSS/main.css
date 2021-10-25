@@ -1,5 +1,5 @@
-figure img {display: flex;}
-.hover-shadow preview{
+figure img, figure, picture {display: flex;}
+img.hover-shadow preview{
  height:100%; 
  width:100%
   }
