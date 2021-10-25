@@ -1,4 +1,4 @@
-figure img, figure, picture, img.hover-shadow preview, figure a, figure a p, figure picture, figure figcaption {display: flex;}
+figure img, figure, picture, img.hover-shadow preview, picture {display: flex;}
 
 * {
     margin: 0%;
