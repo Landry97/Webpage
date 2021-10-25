@@ -1,7 +1,7 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  menu.classList.toggle('show');
+  document.body.classList.toggle('show');
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
@@ -15,7 +15,6 @@ if (mq.matches) {
 };
 
 function closeLightbox() {
-  menu.classList.toggle('');
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
