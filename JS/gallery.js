@@ -16,8 +16,6 @@ if (mq.matches) {
 
 function closeLightbox() {
   menu.classList.toggle(' ');
-  document.getElementsByTagName("html")[0].style.overflow = 'auto';
-  document.getElementById('Lightbox').style.overflow = 'auto';
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'flex';
   document.getElementById('info').style.display = 'flex';
