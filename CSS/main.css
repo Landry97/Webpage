@@ -1,4 +1,11 @@
-img, figure img, figure, picture, img.hover-shadow preview, picture, figure p {display: flex;}* {
+img, figure img, figure, picture, img.hover-shadow preview, picture, figure p {display: flex;}
+
+figure img {
+    width: 100%;
+    height: 100%; 
+}
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
