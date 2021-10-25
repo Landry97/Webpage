@@ -1,53 +1,23 @@
-img, figure img, figure, picture, img.hover-shadow.preview, picture, figure p,div {display: flex; object-fit: contain;}
-
-
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-html{
-    width: 100%;
+figure, figure img, picture{ 
+display: flex;
 } 
 body#bodyid.bodyclass.show{
 overflow: hidden;} 
 body{
     width: 100%;
-    align-items: center;
+    height: 100%;
+    min-height: 100vh;
     background: white;
     color: black;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
-}
-/*Scrollbar*/
-.scroller {
-  overflow-y: scroll;
-  scrollbar-color: black;
-} /*firefox*/
-/* widthandheigth */
-::-webkit-scrollbar {
-  width: 0.65rem;
-  max-height: 20%;
-  height: 20%;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: white;
-  border-radius: 0;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 0;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(219, 10, 10);
 }
 
 /* HEADER */
@@ -392,14 +362,20 @@ div.min-width{
 }
 
 /* FOOTER */
+.footer-wrapper{
+	height: auto;
+	min-height: 20vh;
+	display: flex;
+	align-content: flex-end;
+} 
 footer{
     margin-top: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     letter-spacing: .1rem;
     font-size: .75em;
 }
@@ -442,7 +418,7 @@ footer p a {
     font-size: 1rem; /* Increase font size */
   }
  
-  #myBtn:hover, figure.project a:hover {
+  #myBtn:hover {
     color: rgb(219, 10, 10); /*  text on hover */
   }
 /* END FOOTER */
@@ -501,8 +477,6 @@ p.project-image{
     top: -4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
     text-align: center;
     letter-spacing: .25rem;
 }
@@ -631,3 +605,4 @@ figcaption.project-info1 {
     margin: 0;
     letter-spacing: .15rem;
 }
+
