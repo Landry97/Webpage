@@ -1,4 +1,4 @@
-img, figure img, figure, picture, img.hover-shadow preview, picture, figure p {display: flex;}
+img, figure img, figure, picture, img.hover-shadow preview, picture, figure p,div {display: flex;}
 
 figure img {
     width: 100%;
