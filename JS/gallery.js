@@ -1,8 +1,7 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  document.getElementsByTagName("html")[0].style.overflow = 'hidden';
-  document.getElementById('Lightbox').style.overflow = 'hidden';
+  menu.classList.toggle('show');
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
@@ -16,6 +15,7 @@ if (mq.matches) {
 };
 
 function closeLightbox() {
+  menu.classList.toggle(' ');
   document.getElementsByTagName("html")[0].style.overflow = 'auto';
   document.getElementById('Lightbox').style.overflow = 'auto';
   document.getElementById('Lightbox').style.display = 'none'; 
