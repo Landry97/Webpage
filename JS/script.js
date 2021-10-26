@@ -12,7 +12,8 @@ myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes 
 
 // MENU____ CLICK -> SHOW________________________________________________________________
-const menu = document.getElementById('menupointid');
+const menu = document.getElementById('menu-toggle');
+const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
@@ -24,6 +25,7 @@ menu.addEventListener('click', () => {
       address.classList.toggle('show');
       body.classList.toggle('show');
       menu.classList.toggle('show');
+      menupoint.classList.toggle('show');
 }); 
 
 
