@@ -2,7 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
-  document.getElementsByTagName('header')[0].style.position ="absolute";
+  document.getElementsByTagName('header')[0].style.position ="fixed";
   document.getElementsByTagName('header')[0].style.top ="0";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
