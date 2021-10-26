@@ -87,13 +87,10 @@ header{
     width: 100%;
     align-items: center;
     align-content: center;
-}
-.header, .header-title {
-    position: relative;
-    display: flex;
     justify-content: center;
 }
 .header-title {
+    position: relative;
     display: flex;
     align-content: center;
     text-align: center;
@@ -140,7 +137,6 @@ nav .menu{
 }
 .header-title a{
     text-decoration: none;
-    margin-left: 1rem;
     padding-top: 1em;
     padding-bottom: 1em;
 	}
