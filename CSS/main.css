@@ -229,7 +229,7 @@ address div p a{
 #address.studio-address-on-mobile p a{
     font-size: .6rem;
 }
-#menu-toggle.show{
+#menupoint.show{
 	background: url("black-cross.png") no-repeat;
     background-size: 100%;
     background-color: transparent;
