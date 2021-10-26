@@ -229,7 +229,7 @@ address div p a{
 #address.studio-address-on-mobile p a{
     font-size: .6rem;
 }
-#menupoint.show{
+#menupointid.show{
 display:none;
 } 
 #menu-toggle.show{
