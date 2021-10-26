@@ -235,6 +235,7 @@ address div p a{
     background-color: transparent;
     height: 1.05rem;
     width: 1.05rem;
+    left: 35%;
 } 
 
 #menu.show {
