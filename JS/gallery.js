@@ -12,6 +12,7 @@ function openLightbox() {
   document.getElementsByTagName("header")[0].style.position = "fixed";
   document.getElementsByTagName("header")[0].style.display = "flex";
   document.getElementsByTagName("header")[0].style.height = "100%";
+  document.getElementsByTagName("header")[0].style.top = "0%";
   
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
