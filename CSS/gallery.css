@@ -112,7 +112,6 @@ body{
     height: 10px;
     width:150px;
     cursor: pointer;
-    translate-y: transform: -0,5rem;
   }
   div.dot{
     position: relative;
