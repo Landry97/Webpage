@@ -138,7 +138,7 @@ nav .menu{
     display: flex;
     flex: 1;
 }
-.menu-toggle {
+.menu-toggle a{
     text-decoration: none;
     margin-left: 1rem;
     padding-top: 1.5em;
