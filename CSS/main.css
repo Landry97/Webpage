@@ -357,10 +357,8 @@ main ul{
     text-align: center 
 }
 main ul li{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    display: block;
+    padding: 2rem;
     list-style-type: none;
 }
 main ul li:hover{
