@@ -5,6 +5,11 @@
 body{
 	align-items:center;
 }
+.header-title {
+    position: absolute;
+    top: 0;
+    right: 50%;
+  }
   .row {
       display: flex;
       align-items: center;
