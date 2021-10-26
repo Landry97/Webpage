@@ -149,7 +149,7 @@ width: 100%;
   .close {
     color: black;
     position: absolute;
-    top: 10px;
+    top: 1.5em;
     right: 25px;
     font-size: 35px;
     font-weight: bold;
