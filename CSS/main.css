@@ -139,7 +139,7 @@ nav .menu{
     display: flex;
     flex: 1;
 }
-header a{
+.header-title a{
     text-decoration: none;
     margin-left: 1rem;
     padding-top: 1em;
