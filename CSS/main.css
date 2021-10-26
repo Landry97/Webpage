@@ -124,9 +124,7 @@ header{
     position: static;
     z-index: auto;
 }
-.menupoint{   
-    padding: 1.5em;
-	}
+
 @media screen and (max-width:330px) {
     .header-title a span{
         font-size: 0.9rem;
@@ -144,8 +142,8 @@ nav .menu{
 header a{
     text-decoration: none;
     margin-left: 1rem;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 	}
 .menu-toggle {
     display: none;
