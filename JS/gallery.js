@@ -9,7 +9,7 @@ function openLightbox() {
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-  document.getElementById('header-title').style.display = 'flex';
+  document.getElementsByClassName('header-title').style.position = 'relative';
   
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
@@ -18,7 +18,7 @@ if (mq.matches) {
 };
 
 function closeLightbox() {
-  document.getElementById('header-title').style.display = '';
+  document.getElementsByClassName('header-title').style.position = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementsByTagName('body')[0].style.height ="";
   document.getElementById('Lightbox').style.display = 'none'; 
