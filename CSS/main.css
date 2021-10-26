@@ -148,8 +148,6 @@ p.menupoint {
     height: 8px;
     position: absolute;
     text-indent: -100rem;
-    left: 50%;
-    top:50%;
     width: 8px;
     border-radius: 8px;
     cursor: pointer;
