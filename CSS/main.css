@@ -124,8 +124,7 @@ header{
     z-index: auto;
 }
 .menupoint{   
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding: 1.5em;
 	}
 @media screen and (max-width:330px) {
     .header-title a span{
