@@ -141,7 +141,7 @@ nav .menu{
     display: flex;
     flex: 1;
 }
-.menu-toggle a{
+header a{
     text-decoration: none;
     margin-left: 1rem;
     padding-top: 1.5em;
