@@ -230,6 +230,9 @@ address div p a{
     font-size: .6rem;
 }
 #menupoint.show{
+display:none;
+} 
+#menu-toggle.show{
 	background: url("black-cross.png") no-repeat;
     background-size: 100%;
     background-color: transparent;
