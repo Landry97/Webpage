@@ -1,17 +1,14 @@
 let slideIndex = 1;
 
 function openLightbox() {
-  document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementsByTagName('body')[0].style.height ="100vh";
+  document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('info').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-  document.getElementsByTagName('header')[0].style.height ="10%";
-  
-  
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
