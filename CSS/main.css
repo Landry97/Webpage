@@ -230,15 +230,11 @@ address div p a{
     font-size: .6rem;
 }
 #menupointid.show{
-    position: absolute;
-    left: 50%;
-    top: 50%;
     background: url("black-cross.png") no-repeat;
     background-size: 100%;
     background-color: transparent;
     height: 1.05rem;
     width: 1.05rem;
-    left: 1.5%;
 } 
 
 #menu.show {
