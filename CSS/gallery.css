@@ -8,7 +8,7 @@ body{
 .header-title {
     position: absolute;
     top: 0;
-    right: 50%;
+    left: 50%;
   }
   .row {
       display: flex;
