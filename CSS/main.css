@@ -3,11 +3,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-p.menupoint {
-	position: absolute;
-	height: 100%;
-	width: 2.5em;
-	} 
 figure, figure img, picture{ 
 display: flex;
 } 
@@ -148,8 +143,8 @@ nav .menu{
     padding-top: 1em;
     padding-bottom: 1em;
 	}
-.menu-toggle {
-    display: none;
+
+p.menupoint {
     height: 8px;
     position: absolute;
     text-indent: -100rem;
@@ -159,8 +154,17 @@ nav .menu{
     cursor: pointer;
     z-index: 1000;
     background-color: black;
-    border: 1em;
-	border-color: white;
+	} 
+
+.menu-toggle {
+    display: none;
+    position: absolute;
+    text-indent: -100rem;
+    width: 2.5em;
+padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	
+
 }
 
 nav.menu li{
