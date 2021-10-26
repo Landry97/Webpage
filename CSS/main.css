@@ -148,7 +148,8 @@ p.menupoint {
     height: 8px;
     position: absolute;
     text-indent: -100rem;
-    left: 2.5%;
+    left: 50%;
+    top:50%;
     width: 8px;
     border-radius: 8px;
     cursor: pointer;
@@ -159,12 +160,11 @@ p.menupoint {
 .menu-toggle {
     display: none;
     position: absolute;
+left: 0;
     text-indent: -100rem;
     width: 2.5em;
 padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	
-
 }
 
 nav.menu li{
