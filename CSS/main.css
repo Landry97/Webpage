@@ -248,8 +248,7 @@ address div p a{
     letter-spacing: .6rem;
     min-width: 100vw;
     width: 100%;
-    height: 100vh;
-    min-height: 110vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-content: center;
