@@ -30,7 +30,7 @@ body{
     height: 1.5rem;
     justify-content: center;
     align-items: center;
-    margin-top: -.5rem;
+    margin-top: -.35rem;
 }
 
 .balkentext{
@@ -106,11 +106,9 @@ header{
     letter-spacing: .6em;
 }
 
-.header-title a{
+.header-title {
     text-decoration: none;
     list-style-type: none;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
 }
 
 .header-title a span{
@@ -125,6 +123,10 @@ header{
     position: static;
     z-index: auto;
 }
+.menupoint{   
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+	}
 @media screen and (max-width:330px) {
     .header-title a span{
         font-size: 0.9rem;
