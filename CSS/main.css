@@ -126,6 +126,15 @@ header{
         font-size: 0.9rem;
     }
 }
+
+@media screen and (max-width:330px) {
+   figure.project1:hover:before{
+    opacity: 0.7;
+    border: 5px;
+    border-color: black;
+}
+}
+
 .header-title p{
     color: black;
     text-decoration: none;
@@ -570,6 +579,7 @@ figure.project1:hover{
 figure.project1:hover:before{
     opacity: 1;
 }
+
 figure.project1:hover .project-info1{
     opacity: 1;
     transform: translateY(0) ;
