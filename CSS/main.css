@@ -243,7 +243,6 @@ address div p a{
     right: 0;
     top: 0; 
     bottom: 0;
-    transform: translateY(-1.5rem); /*.DISTANCE OVERLAP ALL HEADER*/
     font-size: 1.75rem;
     letter-spacing: .6rem;
     min-width: 100vw;
