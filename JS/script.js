@@ -1,4 +1,4 @@
-var extern = document.getElementsByTagName("link")[0].import;
+var extern = document.getElementsByTagName("link")[6].import;
 
 window.addEventListener("load", function() {
 document.getElementsByTagName("html")
