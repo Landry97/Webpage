@@ -1,8 +1,8 @@
 var extern = document.getElementsByTagName("link")[5].import;
 
 window.addEventListener("load", function() {
-document.getElementsByTagName("html")[0].replaceChild(extern.getElementsByTagName("header")[1],
-document.getElementsByTagName("header")[0]);
+document.getElementsByTagName("html")[0].replaceChild(extern.getElementsByTagName("header")[0],
+document.getElementsByTagName("header")[1]);
 }, false);
 
 
