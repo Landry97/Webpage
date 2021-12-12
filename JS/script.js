@@ -1,3 +1,5 @@
+var extern = document.getElementsByTagName("header2.html")[0].import;
+
 window.addEventListener("load", function() {
 document.getElementsByTagName("html")
 [0].replaceChild(extern.getElementsByTagName("header")[0],
