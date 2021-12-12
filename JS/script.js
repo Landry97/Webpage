@@ -1,7 +1,7 @@
-var extern = document.getElementsByTagName("link")[0].import;
-var absatz = extern.getElementsByTagName("p")[0];
+var extern = document.getElementsByTagName("header")[0].import;
+var absatz = extern.getElementsByTagName("header")[0];
 window.addEventListener("load", function() {
-document.getElementsByTagName("try.html")[0].replaceChild(extern.getElementsByTagName("header")[0], document.getElementsByTagName("header")[0]);
+document.getElementsByTagName("header2.html")[0].replaceChild(extern.getElementsByTagName("header")[0], document.getElementsByTagName("header")[0]);
 }, false);
 
 
