@@ -1,4 +1,4 @@
-var extern = document.getElementsByTagName("header2.html")[0].import;
+var extern = document.getElementsByTagName("https://leonll.netlify.app/header2.html")[0].import;
 
 window.addEventListener("load", function() {
 document.getElementsByTagName("html")
